@@ -87,7 +87,7 @@ This toggle can be used to change the naming scheme of the ticket channels. If i
 ### Mention On Open
 Specify a list of roles/users to mention after the ticket is opened.
 
-> **Note:** the message mentioning these roles/users will be deleted instantly, however the mention will still persist until they open the channel. This will not work for those who have their notification settings on mute.
+> **Note:** This will not work for those who have their notification settings on mute.
 
 ### Support Teams
 Input which `Staff Teams` will handle tickets created from this reaction panel.
