@@ -1,9 +1,17 @@
 [book]
-authors = ["rxdn"]
+authors = ["rxdn", "ticketsbot-cloud"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Tickets"
+title = "Tickets v2"
 
 [output.html]
-default-theme = "ayu"
+default-theme = "latte"
+preferred-dark-theme = "mocha"
+additional-css = ["./assets/css/mdbook-admonish.css", "./theme/catppuccin.css"]
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`

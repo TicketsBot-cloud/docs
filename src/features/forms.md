@@ -25,13 +25,15 @@ Next, select your form from the `Manage Forms` dropdown list, and add up to 5 in
 
 ![Input Creation](../img/forms/inputs.webp)
 
-> **Note the discord imposed limitations for forms:**
-> - Maximum of 5 inputs per form
-> - Currently only supports text input style
-> - Maximum character limits
->   - Name - 45
->   - Labels - 45
->   - Placeholder - 100
+```admonish note
+ **Note the discord imposed limitations for forms:**
+ - Maximum of 5 inputs per form
+ - Currently only supports text input style
+ - Maximum character limits
+   - Name - 45
+   - Labels - 45
+   - Placeholder - 100
+```
 
 Make sure to save your inputs.
 Your form has now been created. In order to show it to users, you must assign it to a ticket panel.

@@ -92,7 +92,9 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 ![Welcome message](../../img/welcome_message.webp)
 
-> **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
+```admonish note
+The message has a maximum limit of 4096 characters due to Discord limitations.
+```
 
 - Placeholders can be used in the welcome message. View a list of placeholders [here](./placeholders.md).
 

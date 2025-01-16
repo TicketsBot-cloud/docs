@@ -17,7 +17,9 @@ You'll first want to pay attention to the main **Settings** card. Here you can e
 
 ## Prefix
 
-> **Note:** Prefix commands are no longer used! Tickets bot works solely on slash commands!
+```admonish note
+Prefix commands are no longer used! Tickets bot works solely on slash commands!
+```
 
 ## Ticket Limit
 
@@ -47,7 +49,9 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 ![Welcome message](../img/welcome_message.webp)
 
-> **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
+```admonish note
+ the message has a maximum limit of 1024 characters due to Discord limitations.
+```
 
 - You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../miscellaneous/placeholders.md).  
 

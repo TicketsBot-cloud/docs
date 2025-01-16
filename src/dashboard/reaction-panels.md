@@ -19,12 +19,16 @@ Draw your attention to the `New Panel` card. Configure the panel's appearance he
 ### Panel Title
 The panel title is the bold text at the _top_ of the embed.
 
-> **Note:** The panel title has a maximum length of 255 characters, and by default, it is set to `Open a ticket!`.
+```admonish note
+The panel title has a maximum length of 255 characters, and by default, it is set to `Open a ticket!`.
+```
 
 ### Panel Content
 The panel content is the text in the long description of the embed. We recommend providing a general overview of how your support system works, such as which languages the support agents are fluent in.
 
-> **Note:** The panel content has a maximum length of 1024 characters.
+```admonish note
+The panel content has a maximum length of 1024 characters.
+```
 
 ### Panel Colour
 This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:
@@ -34,7 +38,9 @@ This is the colour on the left side of the embed. When clicked, a colour picker 
 ### Panel Channel
 This is the channel that the reaction panel will be sent in for users to react to. Therefore, this channel should be accessible to all members, and be the only message in the channel to avoid confusion.
 
-> **Note:** This should **NOT** be the same as your transcript channel.
+```admonish note
+This should **NOT** be the same as your transcript channel.
+```
 
 ### Ticket Category
 Designates the channel category that the ticket channel will be created under. If unsure of what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
@@ -70,7 +76,9 @@ Upon clicking `Toggle Advanced Settings`, extra fields will be displayed:
 ### Welcome Message
 The server's welcome message can be overridden on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.
 
-> **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
+```admonish note
+The message has a maximum limit of 4096 characters due to Discord limitations.
+```
 
 - Placeholders can be used in the welcome message. View a list of placeholders [here](../miscellaneous/placeholders.md).
 
@@ -87,7 +95,9 @@ This toggle can be used to change the naming scheme of the ticket channels. If i
 ### Mention On Open
 Specify a list of roles/users to mention after the ticket is opened.
 
-> **Note:** This will not work for those who have their notification settings on mute.
+```admonish note
+This will not work for those who have their notification settings on mute.
+```
 
 ### Support Teams
 Input which `Staff Teams` will handle tickets created from this reaction panel.
