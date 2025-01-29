@@ -10,6 +10,7 @@ Upon opening the `Settings` tab, extra sections will be displayed (with the firs
 - [Context Menu (Start Ticket Dropdown)](#context-menu-start-ticket-dropdown)
 - [Claiming](#claiming)
 - [Auto Close](#auto-close)
+- [Ticket Permissions](#ticket-permissions)
 - [Colour Scheme](#colour-scheme)
 
 ![Settings card](../../img/settings_card.webp)
@@ -18,7 +19,7 @@ Upon opening the `Settings` tab, extra sections will be displayed (with the firs
 Here you will find settings that affect the entire server, not just a specific ticket panel.
 
 ### Per User Simultaneous Ticket Limit
-Set the max amount of tickets a server member can have open (staff is immune to this limit.)
+Set the max amount of tickets a server member can have open at one time (staff is immune to this limit.)
 
 - _This is total number of tickets **per member**, not per panel._
 
@@ -39,6 +40,9 @@ Toggle whether a second confirmation is required to close a ticket.
 Toggle whether a user can provide a star rating feedback on the service they received.
 
 - _Learn more about User Feedback [here](../../setup/feedback.md)._
+
+### Anonymise Dashboard Responses
+Check this box to have all responses from the web dashboard come from the bot rather than the support staff.
 
 ## Thread Mode
 We now support using private threads for tickets! This is a new optional mode for the bot that drastically changes how tickets operate.

@@ -9,8 +9,8 @@ Upon opening the `Tickets` menu, there will be one main area that displays any o
 The unique identification number of the ticket will display.
 
 ## Panel
-The reaction panel name of the ticket will display.  
-- *Learn more about Reaction Panels [here](./reaction-panels.md).*
+The ticket panel name of the ticket will display.  
+- *Learn more about Ticket Panels [here](./reaction-panels.md).*
 
 ## User
 The user who opened the ticket will display.

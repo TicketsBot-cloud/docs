@@ -1,23 +1,20 @@
 # Bot Configuration: Indiviual Commands
 ***
 
-You can also tweak individual settings by using a single command. Note, not all settings are available via command, some are only accessible on the [dashboard](./dashboard.md), such as [reaction panels](./panels.md).
+You can also tweak individual settings by using a single command. Note, not all settings are available via command, some are only accessible on the [dashboard](./dashboard.md), such as [ticket panels](./panels.md).
 
 To run the setup, first ensure that you are either the owner of the server, or the owner has designated you as an administrator of the bot by using `/addadmin @YourUsername`.
 
-For definitions and explanations of settings, please refer to the [dashboard guide](./dashboard.md#prefix).
+For definitions and explanations of settings, please refer to the [dashboard guide](./dashboard.md#ticket-limit).
 
 ## Setup Commands
 
 | Command                                                                      | Description                                                                                                 |
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| /setup auto                                                                  | Bot will make a very basic configuration (no reaction panels - you'll still want to customize on dashboard) |
+| /setup auto                                                                  | Bot will make a very basic configuration (no ticket panels - you'll still want to customize on dashboard) |
 | /setup limit                                                                 | Change the quantity of tickets a single user can have open at the same time                                 |
 | /setup transcripts                                                           | Change the transcripts channel                                                                              |
 | /setup use-threads                                                           | Change whether thread mode is enabled                                                                       |
-
-### Prefix
-> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
 
 ### Auto
 See our guide on auto setup [here](./auto.md).
@@ -42,4 +39,4 @@ It is recommended to read an explanation of thread mode (and how it compares to 
 - _Please note, the selected channel must already exist._
 
 ## Additional Settings
-Additional settings are available on the [dashboard](./dashboard.md), such as [reaction panels](./panels.md). It is advised that you read these guides next.
+Additional settings are available on the [dashboard](./dashboard.md), such as [ticket panels](./panels.md). It is advised that you read these guides next.
