@@ -4,7 +4,10 @@
 To get started with adding Tickets to your server, visit [invite.ticketsbot.cloud](https://invite.ticketsbot.cloud): you'll be redirected to Discord automatically.  
   
 You'll first be asked to select the server you want to add the Tickets bot. 
-> **Note:** you must have the **Manage Server** permission to do this.  
+
+```admonish note
+You must have the **Manage Server** permission to do this.  
+```
 
 ![Select server](../img/invite-1.webp)
 

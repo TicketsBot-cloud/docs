@@ -3,8 +3,9 @@
 
 Setting a category for ticket channels which are awaiting the user's response to be moved to. This feature is highly useful for being able to tell which tickets require a response from staff members, and reduces clutter in your ticket categories.
 
-> **Note:** Channel mode only. Discord does not allow threads to be moved. For more differences between the two modes, click [here](./thread-mode.md#channel-vs-thread-comparison).
-
+```admonish note
+Channel mode only. Discord does not allow threads to be moved. For more differences between the two modes, click [here](./thread-mode.md#channel-vs-thread-comparison).
+```
 
 ![Awaiting response](../../img/awaiting_response.webp)
 
@@ -12,4 +13,6 @@ This setting is toggleable for each panel. You can find them under the Ticket Pa
 
 Due to Discord limitations, a channel can only be updated twice every 10 minutes, so it is not possible to change how quickly the channel gets moved to the awaiting response category.
 
-> **Note** This feature is only for servers that have premium activiated. Learn more about premium [here](https://ticketsbot.cloud/premium).
+```admonish note
+This feature is only for servers that have premium activiated. Learn more about premium [here](https://ticketsbot.cloud/premium).
+```

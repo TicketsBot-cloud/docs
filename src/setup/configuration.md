@@ -15,7 +15,9 @@ We've created a few different ways in which you can configure the bot:
   - Auto
   - Individual Settings
 
-> **Note:** We recommend using the web dashboard to configure the bot, as it's easier and more settings are available - including reaction panels.
+```admonish note
+We recommend using the web dashboard to configure the bot, as it's easier and more settings are available - including reaction panels.
+```
 
 If you'd prefer to stick to configuring the bot via commands in Discord, there are a few different methods in which you can do so:
 - `/setup auto` will automatically create roles, channels, and everything else you need (excluding reaction panels) without any interaction required from you. This is okay for simple usecases, but you'll likely want to configure the options yourself.
