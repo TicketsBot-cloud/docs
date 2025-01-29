@@ -9,7 +9,7 @@ You will then be prompted for your *FiveM* server ID. This is the 6 character al
 
 ![Add to server](/img/integrations/fivem/add_to_server.webp)
 
-The integration is now active in your server! The last step is to insert the placeholders of your choice into the ticket welcome message. To do this, head over to the "Reaction Panels" page, press "Edit" on a ticket panel, expand advanced settings, and open the welcome message editor:
+The integration is now active in your server! The last step is to insert the placeholders of your choice into the ticket welcome message. To do this, head over to the "Ticket Panels" page, press "Edit" on a ticket panel, expand advanced settings, and open the welcome message editor:
 ![Welcome message editor](/img/integrations/edit_welcome_message.webp)
 
 Then, customise the welcome message to your liking:

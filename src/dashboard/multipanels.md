@@ -1,28 +1,32 @@
 # Multi Panels
 ***
 
-Multi-panels are the combination of 2 or more Reaction Panels in a single embed:
+Multi-panels are the combination of 2 or more Ticket Panels in a single embed:
 
 ![Multipanel example](../img/multipanel_example.webp)
 
 ## Creating A Multi-panel
 In order to create a multi-panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
+Once on your server's main settings page, select `Ticket Panels` in the navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
 
-![Reaction panel page](../img/panels_navbar.webp)
+![Ticket panel page](../img/panels_navbar.webp)
 
-You'll want to focus on the *right* side of the screen. The left side are settings for individual panels (known as [Reaction Panels](../dashboard/reaction-panels.md).)
+You'll want to focus on the *right* side of the screen. The left side are settings for individual panels (known as [Ticket Panels](../dashboard/reaction-panels.md).)
 
 Draw your attention to the `New Multi-Panel` card. You'll configure the panel's appearance here:
 
 ![Multipanel card](../img/multipanel_card.webp)
 
 ### Panel Title
-The panel title is the bold text at the *top* of the embed. The panel title has a maximum length of 255 characters. By default, we set the value to `Open a ticket!`
+The panel title is the bold text at the _top_ of the embed.
+
+> **Note:** The panel title has a maximum length of 255 characters, and by default, it is set to `Open a ticket!`.
 
 ### Panel Content
-The panel content is the text in the long description of the embed. It has a maximum length of 1024 characters. We recommend providing a general overview of how your support system works, such as which languages you have support staff fluent in.
+The panel content is the text in the long description of the embed. We recommend providing a general overview of how your support system works, such as which languages the support agents are fluent in.
+
+> **Note:** The panel content has a maximum length of 1024 characters.
 
 ### Panel Colour
 This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:

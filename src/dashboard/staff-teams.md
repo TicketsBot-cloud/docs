@@ -1,7 +1,7 @@
 # Staff Teams
 ***
 
-Staff Teams can be used to further customize which of your staff members can see, claim, respond to, and close specific types of tickets. This is possible because Staff Teams get linked to individual reaction panels however you see fit. Click to learn more about [reaction panels](../dashboard/reaction-panels.md) or the [support teams input](../dashboard/reaction-panels.md/#support-teams).
+Staff Teams can be used to further customize which of your staff members can see, claim, respond to, and close specific types of tickets. This is possible because Staff Teams get linked to individual ticket panels however you see fit. Click to learn more about [ticket panels](../dashboard/reaction-panels.md) or the [support teams input](../dashboard/reaction-panels.md/#support-teams).
 
 ## Basic Video Walkthrough
 <video src="../vid/StaffTeams.mp4" controls poster="../img/video_thumbnails/Thumbnail_Staff_Teams.webp"></video>

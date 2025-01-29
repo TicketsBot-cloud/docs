@@ -27,7 +27,7 @@ Instead of the whole support team being added to a ticket when it is opened, the
 ## On-Call
 Thread mode introduces a new command: `/on-call`. When a staff member runs this command, they will be assigned roles marking them as on call, until they run the command again. When a new ticket is opened, the on call roles are pinged in the ticket, instantly adding all currently on call staff members to the ticket.
 
-Note: When a staff member becomes on call, they will **not** be added to any existing tickets. They must join them via the ticket notification channel as normal.
+> **Note:** When a staff member becomes on call, they will **not** be added to any existing tickets. They must join them via the ticket notification channel as normal.
 
 ## How do I enable thread mode?
 You can enable threads directly within Discord, by using the command `/setup use-threads`, like so:

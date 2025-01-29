@@ -4,11 +4,11 @@
 <video src="../vid/ReactionPanels.mp4" controls poster="../img/video_thumbnails/Thumbnail_Reaction_Panels.webp"></video>
 
 ## Creating A Panel
-In order to create a reaction panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
+In order to create a ticket panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
 Once on your server's main settings page, select `Ticket Panels` in the navigation bar to be taken to the ticket panel configuration page which looks as follows:
 
-![Reaction panel page](../img/panels_navbar.webp)
+![Ticket panel page](../img/panels_navbar.webp)
 
 Focus on the _left_ side of the screen. The right side are settings for combining different panels into a single message.
 
@@ -32,14 +32,14 @@ This is the colour on the left side of the embed. When clicked, a colour picker 
 ![Colour picker](../img/colour_picker.webp)
 
 ### Panel Channel
-This is the channel that the reaction panel will be sent in for users to react to. Therefore, this channel should be accessible to all members, and be the only message in the channel to avoid confusion.
+This is the channel that the ticket panel will be sent in for users to react to. Therefore, this channel should be accessible to all members, and be the only message in the channel to avoid confusion.
 
 > **Note:** This should **NOT** be the same as your transcript channel.
 
 ### Ticket Category
 Designates the channel category that the ticket channel will be created under. If unsure of what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
 
-Reaction panels use different channel categories to the one configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning it is possible to have each "type" of ticket open in it's own category for easier organization.
+Ticket panels use different channel categories to the one configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning it is possible to have each "type" of ticket open in it's own category for easier organization.
 
 ### Form
 Assign a form to the panel.
@@ -103,15 +103,14 @@ Input a URL link to an image here, it will display to the **right of the welcome
 - _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
 
 ## Completion
-Once the reaction panel has been configured, click `Submit` and the panel will be created in the server. A success message should be shown in the bottom right hand corner of the screen if successful, or an appropriate error message if there was a mistake:
+Once the ticket panel has been configured, click `Submit` and the panel will be created in the server. A success message should be shown in the bottom right hand corner of the screen if successful, or an appropriate error message if there was a mistake:
 
 ![Success](../img/panel_success.webp)
 
 - If any fields are left blank, the default values will be used.
 
 ## Editing
-Reaction panels can be edited at a later date. Simply click the `Edit` button in the list of panels and the editing modal will be opened:
+Ticket panels can be edited at a later date. Simply click the `Edit` button in the list of panels and the editing modal will be opened:
 ![Panel edit](../img/panel_edit.webp)
 
-A panel can also be deleted by clicking the `Delete` button, or deleting the message containing the panel in Discord. If only the message in Discord is deleted, the panel will continue to exist on the Web Dashboard and can be resubmitted to Discord if needed, by clicking the `Resend` button.
 A panel can also be deleted by clicking the `Delete` button, or deleting the message containing the panel in Discord. If only the message in Discord is deleted, the panel will continue to exist on the Web Dashboard and can be resubmitted to Discord if needed, by clicking the `Resend` button.
