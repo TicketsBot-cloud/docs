@@ -5,13 +5,13 @@ Tickets has the ability to prompt users for answers to pre-defined questions whe
 
 ![Example](/img/forms/example.webp)
 
-To set this up, you must first create a form, and then apply the form to your [reaction panel](../dashboard/reaction-panels.md). This way, you can assign a single form to multiple different types of tickets, if you choose.
+To set this up, you must first create a form, and then apply the form to your [ticket panel](../dashboard/reaction-panels.md). This way, you can assign a single form to multiple different types of tickets, if you choose.
 
 ## Basic Video Walkthrough
 <video src="../vid/Forms.mp4" controls poster="../img/video_thumbnails/Thumbnail_Forms.webp"></video>
 
 ## Creating the Form
-First, head over to the [dashboard](https://dashboard.ticketsbot.cloud) and select your server.
+First, head over to the [web dashboard](https://dashboard.ticketsbot.cloud) and select your server.
 
 Then, select the `Forms` tab in the navigation bar:
 
@@ -37,7 +37,7 @@ Make sure to save your inputs.
 Your form has now been created. In order to show it to users, you must assign it to a ticket panel.
 
 ## Assign Form to a Panel
-Head over to the `Reaction Panels` page of the dashboard via the top navigation bar, as shown in the [panels](../setup/panels.md) documentation.
+Head over to the `Ticket Panels` page of the dashboard via the top navigation bar, as shown in the [panels](../setup/panels.md) documentation.
 
 Either create a new ticket panel, or choose an existing one to edit. You will notice a dropdown labeled `Form`. Expand this dropdown, and select your new form:
 

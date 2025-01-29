@@ -17,7 +17,7 @@ Not only does this add the specified user to the Default Team in Staff Teams, bu
 
 **Command:** `/addsupport @username` or `/addsupport @role`
  
-This adds the specified user to the Default Team in Staff Teams. The only thing they will be able to see on the online dashboard are the tickets where the Default Team has been assigned as a support team.
+This adds the specified user to the Default Team in Staff Teams. The only thing they will be able to see on the web dashboard are the tickets where the Default Team has been assigned as a support team.
 
 ## Staff members handle SPECIFIC tickets
 ***

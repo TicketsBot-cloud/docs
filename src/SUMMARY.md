@@ -7,7 +7,7 @@
     - [Web Dashboard](./setup/dashboard.md)
     - [Auto](./setup/auto.md)
     - [Individual Settings](./setup/individual.md)
-  - [Reaction Panels](./setup/panels.md)
+  - [Ticket Panels](./setup/panels.md)
   - [Support Staff](./setup/staff.md)
 
 - [Commands](./commands/introduction.md)
