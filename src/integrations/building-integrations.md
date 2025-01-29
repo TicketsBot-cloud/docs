@@ -1,32 +1,22 @@
-# BUILDING INTEGRATIONS
-
----
-
----
+# Build Integrations
 
 Integrations let you include information retrieved from your own web server, or 3rd party APIs, directly in the welcome messages of your tickets!
 
 In this guide, we'll build an integration from scratch together, from start to finish.
 
 ## What can I use integrations for?
-
----
-
 If you run a service that incorporates [Discord OAuth](https://discord.com/developers/docs/topics/oauth2), you have a use case for integrations! Since your user objects are linked to Discord accounts, you can expose an API endpoint that Tickets can request to include information about the user in the ticket.
 
 A simple example would be a forum! When a user opens a ticket in your Discord server, you could include the user's forum username automatically.
 
-Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets.. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.ticketsbot.net/setup/placeholders#bloxlink).
+Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets.. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.ticketsbot.cloud/setup/placeholders#bloxlink).
 
 Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration.
 
 ## Background Setup
-
----
-
 Let's say we run a game, where users link their accounts to their Discord accounts. Users have usernames, scores and other metadata which we wish to display in the welcome message when a user opens a ticket.
 
-The following is some simple code that serves some example JSON data that we will be using for this tutorial. Let's say that this code is running on a web server, accessible at `https://example.ticketsbot.net`:
+The following is some simple code that serves some example JSON data that we will be using for this tutorial. Let's say that this code is running on a web server, accessible at `https://example.ticketsbot.cloud`:
 
 ```js
 const express = require("express");
@@ -53,10 +43,10 @@ app.listen(process.env.PORT, () => console.log("Listening..."));
 
 The server responds with the user object stored in the `users` dictionary if it exists, or alternatively with an empty JSON object, `{}`.
 
-For example, sending a request to `https://example.ticketsbot.net/lookup?user=585576154958921739`:
+For example, sending a request to `https://example.ticketsbot.cloud/lookup?user=585576154958921739`:
 
 ```bash
-$ curl https://example.ticketsbot.net/lookup?user=585576154958921739 | jq .
+$ curl https://example.ticketsbot.cloud/lookup?user=585576154958921739 | jq .
 {
   "online_status": "Online",
   "user": {
@@ -75,12 +65,9 @@ Your integration **MUST** return a JSON response. Parsing other data formats is 
 All data types are supported, except for JSON arrays. You should pre-process your arrays and join them to strings.
 
 ## Creating Your Integration
-
----
-
 Now that we have somewhere to pull data from, we can start linking it up with Tickets!
 
-First, head over to our [web dashboard](https://dashboard.ticketsbot.net), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
+First, head over to our [web dashboard](https://dashboard.ticketsbot.cloud), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
 
 ![Navigation](/img/integrations/navbar.webp)
 
@@ -94,7 +81,7 @@ You will be then be prompted to enter information about how the integration work
 
 ![Request URL](/img/integrations/request_url.webp)
 
-Upon a ticket being opened, we will send a HTTP request to the provided request URL, to which you should respond with a JSON object that we can extract values of your choice from. You can use the placeholder `%user_id%` in the URL, which will be replaced with the user ID of the user who opened the ticket. In our case, we set this to `https://example.ticketsbot.net/lookup?user=%user_id%`.
+Upon a ticket being opened, we will send a HTTP request to the provided request URL, to which you should respond with a JSON object that we can extract values of your choice from. You can use the placeholder `%user_id%` in the URL, which will be replaced with the user ID of the user who opened the ticket. In our case, we set this to `https://example.ticketsbot.cloud/lookup?user=%user_id%`.
 
 Requests can either be sent as GET or POST requests. POST requests are sent with a JSON body with information about the ticket. An example body is as follows:
 
@@ -117,7 +104,6 @@ The `is_new_ticket` denotes whether the request is being made due to a new ticke
 The `form_data` field is only included for **private** integrations. There is not reason for public integrations to include form data, as forms are specific to the server.
 
 ### Headers and Secrets
-
 It is recommended that you add some kind of authentication to your API- or if you are making an integration that requests a public API, you will definitely be required to use authentication. Thankfully, you can add HTTP headers to your integration requests!
 
 Let's say our example app now requires an API key to be sent in the `Authorization` header. Simply press the `Add Additional Header` button, and enter the header name and value, like so:
@@ -151,7 +137,6 @@ If the value does not satisfy your constraints, then respond with any non-2XX st
 ```
 
 ### Placeholders
-
 Next, we are onto creating the placeholders themselves. Here, you define how each value in your JSON response should be mapped to the variables that can be used in welcome messages.
 
 As a reminder, in our example application, we respond with the following JSON:
@@ -187,9 +172,6 @@ You have now successfully configured your first integration! All that is left is
 You can view the list of available placeholders on the right-hand side of the page. Don't forget to _activate_ the integration in your server, by pressing the "Add to server" button!
 
 ## Using Placeholders
-
-\*\*
-
 Now that we have created out integration and added it to our server (don't forget this part), we can implement the placeholders!
 
 You'll need to head over to the "Reaction Panels" tab of the dashboard for your server, press edit on a panel, and open the welcome message editor:
@@ -207,20 +189,15 @@ Let's test it out!
 As you can see, the placeholders have successfully been fetched from the web server, and replaced with the provided values!
 
 ## Need Help?
-
----
-
-If you're still not sure about creating integrations, we can help you! You may find it helpful to read our next guide, on [how we created the cryptocurrency price integration](/integrations/creating-the-cryptocurrency-integration). If you're still stuck, feel free to ask us in our [Discord server](https://discord.gg/bh6aAfP)!
+If you're still not sure about creating integrations, we can help you! You may find it helpful to read our next guide, on [how we created the cryptocurrency price integration](/integrations/creating-the-cryptocurrency-integration). If you're still stuck, feel free to ask us in our [Discord server](https://discord.gg/ticketsbot)!
 
 ## Security
-
----
-
 We have put **significant** effort into making sure integrations are safe, by ensuring requests are always proxied, and not sent to where they are not supposed to be, including through additional penetration testing.
 
 Integration HTTP requests should be sent to your server via AS13335 (Cloudflare), and it should not be possible to send a request to a private IP.
 
-However, in the case that you do find a vulnerability: we operate a bug bounty program. [Join our Discord server](https://discord.gg/M2euYCGH5q) and open a ticket to responsibly disclose. In general, we offer up to $1,000 per vulnerability, based on a combination of complexity and severity. Bounties are assessed on a case-by-case basis.
+<!-- Temporarily disabled until more is known and checked in the new bot -->
+<!-- However, in the case that you do find a vulnerability: we operate a bug bounty program. [Join our Discord server](https://discord.gg/ticketsbot) and open a ticket to responsibly disclose. In general, we offer up to $1,000 per vulnerability, based on a combination of complexity and severity. Bounties are assessed on a case-by-case basis. -->
 
 Regarding integrations, we are particularly interested in vulnerabilities related to:
 
@@ -240,8 +217,8 @@ When performing security research, please:
 If you wish to perform static code analysis for your research, you can view the relevant open source code here:
 
 - Integration Proxy
-  - [secure-proxy](https://github.com/TicketsBot/tickets.rs/tree/master/secure-proxy)
-  - [global-resolver](https://github.com/TicketsBot/tickets.rs/tree/master/global-resolver)
+  - [secure-proxy](https://github.com/TicketsBot-cloud/tickets.rs/tree/master/secure-proxy)
+  - [global-resolver](https://github.com/TicketsBot-cloud/tickets.rs/tree/master/global-resolver)
 - Image Proxy
-  - [image-proxy](https://github.com/TicketsBot/tickets.rs/tree/master/image-proxy)
-  - [global-resolver](https://github.com/TicketsBot/tickets.rs/tree/master/global-resolver)
+  - [image-proxy](https://github.com/TicketsBot-cloud/tickets.rs/tree/master/image-proxy)
+  - [global-resolver](https://github.com/TicketsBot-cloud/tickets.rs/tree/master/global-resolver)

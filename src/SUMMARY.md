@@ -1,7 +1,5 @@
 # SUMMARY
 
-<!-- MAKE SETUP JUST THE BASICS TO GET TICKETING SYSTEM UP AND RUNNING -->
-
 - [Setup](./setup/introduction.md)
   - [Inviting the Bot](./setup/invite.md)
   - [Language Customisation](./setup/languages.md)
@@ -14,9 +12,8 @@
 
 - [Commands](./commands/introduction.md)
   - [Command List](./commands/commands.md)
-    - [Add Admin/Support](./commands/add-admin-support.md)
+    - [Add Admin / Support](./commands/add-admin-support.md)
     - [Close Requests](./commands/close-requests.md)
-    <!--- ANY OTHER ADVANCED COMMANDS -->
 
 - [Dashboard](./dashboard/introduction.md)
   - [Settings](./dashboard/settings/settings.md)
@@ -25,8 +22,9 @@
     - [Placeholders](./dashboard/settings/placeholders.md)
     - [Start Ticket From Message](./dashboard/settings/start-ticket-from-message.md)
     - [Claiming Tickets](./dashboard/settings/claiming.md)
+    - [Awaiting User Response](./dashboard/settings/awaiting-response.md)
   - [Transcripts](./dashboard/transcripts.md)
-  - [Reaction Panels](./dashboard/reaction-panels.md)
+  - [Panels](./dashboard/reaction-panels.md)
     - [Multi-Panels](./dashboard/multipanels.md)
   - [Forms](./dashboard/forms.md)
   - [Staff Teams](./dashboard/staff-teams.md)
@@ -44,7 +42,6 @@
   - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)
 
 - [Features](./features/introduction.md)
-  - [Integrations](./features/integrations.md)
   - [Thread Mode](./features/thread-mode.md)
   - [Forms](./features/forms.md)
   - [Multi-Panels](./features/multipanels.md)
@@ -56,4 +53,5 @@
   - [Official Tickets Links](./miscellaneous/official-links.md)
   - [Patreon Links/Articles](./miscellaneous/patreon.md)
   - [Placeholders](./miscellaneous/placeholders.md)
-  - [Translate the Bot](./miscellaneous/languages.md)
+  - [Translate the Bot](./setup/languages.md#help-wanted)
+  - [Dashboard: "No Permission"](./miscellaneous/dashboard-no-permission.md)

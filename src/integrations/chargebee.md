@@ -1,16 +1,15 @@
-# USING THE CHARGEBEE INTEGRATION
+# Using the ChargeBee Intergration
 ***
-***
+
+**Note:** This is a community-made integration. This integration is not created, maintained or affiliated with Tickets Bot, and requests are processed by a third-party.
 
 If you use Chargebee for billing/subscription management, the Chargebee Integration allows you to fetch customer info and basic subscription status in tickets.
 
-To activate the Chargebee integration in your server, head over to our [web dashboard](https://dashboard.ticketsbot.net) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the Chargebee integration, and press "Add to server":
+To activate the Chargebee integration in your server, head over to our [web dashboard](https://dashboard.ticketsbot.cloud) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the Chargebee integration, and press "Add to server":
 
 ![Integrations list](/img/integrations/chargebee/integrations_page.webp)
 
 ## Setup
-***
-
 You will need several things to get this setup:
 1. A Chargebee account https://app.chargebee.com/
 2. A **read-only** [API](Key https://www.chargebee.com/docs/2.0/api_keys.html)
@@ -42,7 +41,7 @@ Finally, test it out by opening a ticket:
 
 ![Example](/img/integrations/chargebee/welcome_message.webp)
 
-***
+## Note
 
 The Chargebee integration was made by, and hosted by, @William_CTO#5415.  
 Data is processed in Cloudflare Workers and is never stored. Tickets Bot is not responsible for this integration.

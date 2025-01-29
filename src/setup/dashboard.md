@@ -1,8 +1,7 @@
-# Bot Configuration: WEB DASHBOARD
-***
+# Bot Configuration: Web Dashboard
 ***
 
-First, head over to the dashboard at [dashboard.ticketsbot.net](https://dashboard.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
+First, head over to the dashboard at [dashboard.ticketsbot.cloud](https://dashboard.ticketsbot.cloud). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](../img/login.webp)
 
@@ -18,7 +17,7 @@ You'll first want to pay attention to the main **Settings** card. Here you can e
 
 ## Prefix
 
-> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands!
+> **Note:** Prefix commands are no longer used! Tickets bot works solely on slash commands!
 
 ## Ticket Limit
 
@@ -50,7 +49,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 > **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
 
-- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
+- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../miscellaneous/placeholders.md).  
 
 - You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`.  **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
@@ -66,7 +65,7 @@ A message, similar to the one following, will also be sent to your transcripts c
 
 This message will also be sent via direct messages to the user who opened the ticket. It is not possible to disable this functionality since we believe it is important for transparency purposes that users are also able to access the transcripts.
 
-If you have privacy concerns, please join our [support server](https://discord.gg/VtV3rSk) to enquire. Unfortunately we are unable to answer any questions regarding your user data off-platform in order to verify your identity.
+If you have privacy concerns, please join our [support server](https://discord.gg/ticketsbot) to enquire. Unfortunately we are unable to answer any questions regarding your user data off-platform in order to verify your identity.
 
 ## Channel Category
 

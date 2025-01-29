@@ -1,8 +1,7 @@
-# INVITING THE BOT  
-***
+# Inviting The Bot  
 ***
 
-To get started with adding Tickets to your server, visit [invite.ticketsbot.net](https://invite.ticketsbot.net): you'll be redirected to Discord automatically.  
+To get started with adding Tickets to your server, visit [invite.ticketsbot.cloud](https://invite.ticketsbot.cloud): you'll be redirected to Discord automatically.  
   
 You'll first be asked to select the server you want to add the Tickets bot. 
 > **Note:** you must have the **Manage Server** permission to do this.  

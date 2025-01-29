@@ -1,18 +1,14 @@
-# PLACEHOLDERS
-***
-***
-
-## Welcome Message Placeholders:
+# Placeholders
 ***
 
+## Welcome Message Placeholders
 ### Built-in
-
-\* = This is a premium feature. Learn more about premium [here](https://ticketsbot.net/premium).
 
 |Placeholder|Description |
 |--|--|
 | %user% | Mentions the user |
 | %username% | Display the user's name |
+| %user_id% | Display the user's numeric Id |
 | %ticket_id% | Display the ticket's numeric ID |
 | %open_tickets% | Display the number of open tickets in the server |
 | %total_tickets% | Display the number of tickets that have ever been opened in the server |
@@ -31,6 +27,8 @@
 | %discord_account_creation_date% | The date and time that the user's Discord account was created |
 | %discord_account_age% | How long ago the user's Discord account was created |
 
+Placeholders marked with a * are premium features. Learn more about premium [here](https://ticketsbot.cloud/premium).
+
 ### Integrations
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
 
@@ -47,8 +45,6 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
 
 ## Custom Naming Scheme Placeholders:
-***
-
 |Placeholder|Description|
 |--|--|
 | %id% | Display the unique ticket id# |

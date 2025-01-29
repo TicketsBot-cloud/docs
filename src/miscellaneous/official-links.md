@@ -1,18 +1,17 @@
-# OFFICIAL LINKS
-***
+# Official Links
 ***
 
 ### Website
-[ticketsbot.net](https://ticketsbot.net/)
+[ticketsbot.cloud](https://ticketsbot.cloud/)
 
 ### Invite The Bot
-[invite.ticketsbot.net](https://invite.ticketsbot.net/)
+[invite.ticketsbot.cloud](https://invite.ticketsbot.cloud/)
 
 ### Dashboard
-[dashboard.ticketsbot.net](https://dashboard.ticketsbot.net/)
+[dashboard.ticketsbot.cloud](https://dashboard.ticketsbot.cloud/)
 
 ### Documentation
-[docs.ticketsbot.net](https://docs.ticketsbot.net/)
+[docs.ticketsbot.cloud](https://docs.ticketsbot.cloud/)
 
 ### Discord Support Server
-[tickets bot support](https://discord.gg/VtV3rSk)
+[Support Server](https://discord.gg/ticketsbot)
