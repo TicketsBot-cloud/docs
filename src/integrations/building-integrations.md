@@ -9,7 +9,7 @@ If you run a service that incorporates [Discord OAuth](https://discord.com/devel
 
 A simple example would be a forum! When a user opens a ticket in your Discord server, you could include the user's forum username automatically.
 
-Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets.. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.ticketsbot.cloud/setup/placeholders#bloxlink).
+Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.ticketsbot.cloud/setup/placeholders#bloxlink).
 
 Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration.
 
@@ -101,7 +101,7 @@ Requests can either be sent as GET or POST requests. POST requests are sent with
 
 The `is_new_ticket` denotes whether the request is being made due to a new ticket being created. Placeholders are supported in tags and other places, in which case `is_new_ticket` would be `false`.
 
-The `form_data` field is only included for **private** integrations. There is not reason for public integrations to include form data, as forms are specific to the server.
+The `form_data` field is only included for **private** integrations. There is no reason for public integrations to include form data, as forms are specific to the server.
 
 ### Headers and Secrets
 It is recommended that you add some kind of authentication to your API- or if you are making an integration that requests a public API, you will definitely be required to use authentication. Thankfully, you can add HTTP headers to your integration requests!
@@ -174,7 +174,7 @@ You can view the list of available placeholders on the right-hand side of the pa
 ## Using Placeholders
 Now that we have created out integration and added it to our server (don't forget this part), we can implement the placeholders!
 
-You'll need to head over to the "Reaction Panels" tab of the dashboard for your server, press edit on a panel, and open the welcome message editor:
+You'll need to head over to the "Ticket Panels" tab of the dashboard for your server, press edit on a panel, and open the welcome message editor:
 
 ![Welcome Message Editor](/img/integrations/edit_welcome_message.webp)
 
@@ -204,7 +204,7 @@ Regarding integrations, we are particularly interested in vulnerabilities relate
 - Accessing internal services
 - Exposing the origin IPs of our nodes
 - Accessing secret values of other servers
-- Access the IP address of another user, via viewing integration logos
+- Accessing the IP address of another user, via viewing integration logos
 
 Integration logos are proxied by dedicated images proxy nodes running on AS16276 (OVH). These nodes are located outside of our internal network, and do not serve any other purpose. We are not concerned with hiding the IP addresses of these nodes. Note that integration logos viewed on the integration creation and updating pages are _not_ proxied, as they are only viewable by the integration creator, and so would be classed as a self-attack.
 

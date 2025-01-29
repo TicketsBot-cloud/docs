@@ -8,9 +8,9 @@ Upon opening the `Transcripts` menu, you'll have two cards displayed to you:
 ![Transcripts card](../img/transcripts_card.webp)
 
 ## Filter Logs
-Here you can filter the transcripts shown down in the other section.  
+Here you can filter the transcripts displayed in the lower Transcripts section.  
   
-Fill out the inputs as you desire and click `Filter` button.
+Fill out the inputs as desired and click `Filter` button.
 
 ## Transcripts
 Here you can view transcripts of closed tickets.

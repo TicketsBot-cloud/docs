@@ -15,11 +15,7 @@ You'll be taken to the settings page as follows:
 
 You'll first want to pay attention to the main **Settings** card. Here you can edit the following settings:
 
-## Prefix
-
-> **Note:** Prefix commands are no longer used! Tickets bot works solely on slash commands!
-
-## Ticket Limit
+## Per User Simultaneous Ticket Limit
 
 This is the amount of tickets that a **single user** can have open **at a single time**. We usually recommend setting this to 1, but the default is 5.
 
@@ -53,7 +49,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 - You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`.  **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
-The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
+The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the ticket panel if used. We are unable to get a subject from the user when using ticket panels currently, however, this will be possible in a future update of Discord.
 
 ## Transcripts Channel
 
@@ -92,6 +88,6 @@ Once you are satisfied with your settings, press the `Submit` button to save the
 We now have the basic configuration completed!
 
 You may wish to configure the following options next:
-- [Reaction Panels](./panels.md)
+- [Ticket Panels](./panels.md)
 - [Claim Settings](../dashboard/settings/claiming.md)
 - [Auto Close](../dashboard/settings/settings.md/#auto-close)
