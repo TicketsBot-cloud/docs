@@ -11,11 +11,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
+[![project_license][license-shield]][license-url] -->
 
 
 <!--FIX -->
@@ -83,7 +83,6 @@ User-facing documentation for [Tickets v2](https://ticketsbot.cloud). Tickets is
 ### Documentation Built With
 
 * [![Markdown][Markdown.org]][Markdown-url]
-* [![Docker][Docker.com]][Docker-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,29 +101,8 @@ section coming soon
 ### Installation
 
 SECTION COMING SOON
+
 to preview changes on `http://localhost:3000/` run `mdbook serve`
-
-directions below do not apply
-
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
