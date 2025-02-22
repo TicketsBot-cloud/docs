@@ -102,7 +102,10 @@ section coming soon
 ### Installation
 
 SECTION COMING SOON
+to preview changes on `http://localhost:3000/` run `mdbook serve`
+
 directions below do not apply
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
