@@ -3,7 +3,7 @@
 ## Basic Video Walkthrough
 <video src="../vid/ReactionPanels.mp4" controls poster="../img/video_thumbnails/Thumbnail_Reaction_Panels.webp"></video>
 
-## Creating A Panel
+# Creating A Panel
 In order to create a ticket panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
 Once on your server's main settings page, select `Ticket Panels` in the navigation bar to be taken to the ticket panel configuration page which looks as follows:
@@ -15,6 +15,52 @@ Focus on the _left_ side of the screen. The right side are settings for combinin
 Draw your attention to the `New Panel` card. Configure the panel's appearance here:
 
 ![Panel card](../img/panel_card.webp)
+
+
+## Ticket Properties
+***
+
+
+### Mention On Open
+Specify a list of roles/users to mention after the ticket is opened.
+
+> **Note:** This will not work for those who have their notification settings on mute.
+
+### Support Teams
+Input which `Staff Teams` will handle tickets created from this reaction panel.
+
+### Ticket Category
+Designates the channel category that the ticket channel will be created under. If unsure of what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
+
+Ticket panels use different channel categories to the one configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning it is possible to have each "type" of ticket open in it's own category for easier organization.
+
+### Form
+Assign a form to the panel.
+
+- _Learn more about Forms [here](../features/forms.md)._
+
+### Naming Scheme
+This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the `Settings` portion of the Dashboard. If it's flipped to grey, a custom scheme can be setup.
+
+- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](../miscellaneous/placeholders.md#custom-naming-scheme-placeholders).
+
+### Exit Survey Form
+<!--- Need to add --->
+Users can be requested to leave feedback when their ticket is closed.
+
+- _Learn more about Exit Surveys [here](../dashboard/settings/exit-survey.md)._
+
+> **Note:** This is a premium feature. Learn more about premium [here](https://ticketsbot.cloud/premium).
+
+### Awaiting Response Category 
+Tickets awaiting a user's response can be moved to a different category.
+
+- _Learn more about Awaiting Response Category [here](../dashboard/settings/awaiting-response.md)._
+
+> **Note:** This is a premium feature. Learn more about premium [here](https://ticketsbot.cloud/premium).
+
+## Panel Message
+***
 
 ### Panel Title
 The panel title is the bold text at the _top_ of the embed.
@@ -36,15 +82,8 @@ This is the channel that the ticket panel will be sent in for users to react to.
 
 > **Note:** This should **NOT** be the same as your transcript channel.
 
-### Ticket Category
-Designates the channel category that the ticket channel will be created under. If unsure of what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
-
-Ticket panels use different channel categories to the one configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning it is possible to have each "type" of ticket open in it's own category for easier organization.
-
-### Form
-Assign a form to the panel.
-
-- _Learn more about Forms [here](../features/forms.md)._
+### Disable Panel
+Enable this checkbox to disable users from opening tickets from this panel.
 
 ### Button Colour
 Choose the colour of the button.
@@ -57,17 +96,22 @@ This is the emoji that users will click in order to open a ticket. The emoji can
 
 Custom emojis from your server can be used by clicking the toggle to show green instead of grey. When toggled on, the input field will show you a list of your available emojis to choose from.
 
-## Advanced Settings
-Upon clicking `Toggle Advanced Settings`, extra fields will be displayed:
+### Large Image URL
+Input a URL link to an image here, it will display **underneath the welcome message**.
 
-- [Welcome Message](#welcome-message)
-- [Naming Scheme](#naming-scheme)
-- [Mention on Open](#mention-on-open)
-- [Support Teams](#support-teams)
-- [Large Image URL](#large-image-url)
-- [Small Image URL](#small-image-url)
+<!--- Need to update filetypes --->
+- _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
 
-### Welcome Message
+### Small Image URL
+Input a URL link to an image here, it will display to the **right of the welcome message**.
+
+<!--- Need to update filetypes --->
+- _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
+
+
+## Welcome Message
+***
+
 The server's welcome message can be overridden on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.
 
 > **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
@@ -79,37 +123,29 @@ The server's welcome message can be overridden on a per-panel basis using this f
   - **Second**, right click any channel name, username, message, etc and choose `Copy ID`.
   - **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in the welcome message.
 
-### Naming Scheme
-This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the `Settings` portion of the Dashboard. If it's flipped to grey, a custom scheme can be setup.
+## Access Control
+***
 
-- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](../miscellaneous/placeholders.md#custom-naming-scheme-placeholders).
+You can now specify a list of roles that can / can't open a ticket with each panel. The access control list is evaluated from top-to-bottom, stopping after the first match.
 
-### Mention On Open
-Specify a list of roles/users to mention after the ticket is opened.
+In the image below only users with the `Whitelabel`, `Patrons`, or `Nitro Booster` roles can open tickets, but not if they have the `Muted` role.
 
-> **Note:** This will not work for those who have their notification settings on mute.
+![Access control](../img/access_control.webp)
 
-### Support Teams
-Input which `Staff Teams` will handle tickets created from this reaction panel.
-
-### Large Image URL
-Input a URL link to an image here, it will display **underneath the welcome message**.
-
-- _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
-
-### Small Image URL
-Input a URL link to an image here, it will display to the **right of the welcome message**.
-
-- _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
 
 ## Completion
-Once the ticket panel has been configured, click `Submit` and the panel will be created in the server. A success message should be shown in the bottom right hand corner of the screen if successful, or an appropriate error message if there was a mistake:
+***
+
+Once the ticket panel has been configured, click `Create` and the panel will be created in the server. A success message should be shown in the bottom right hand corner of the screen if successful, or an appropriate error message if there was a mistake:
 
 ![Success](../img/panel_success.webp)
 
 - If any fields are left blank, the default values will be used.
 
+
 ## Editing
+***
+
 Ticket panels can be edited at a later date. Simply click the `Edit` button in the list of panels and the editing modal will be opened:
 ![Panel edit](../img/panel_edit.webp)
 

@@ -18,6 +18,7 @@
 - [Dashboard](./dashboard/introduction.md)
   - [Settings](./dashboard/settings/settings.md)
     - [User Feedback](./dashboard/settings/feedback.md)
+    - [Exit Survey](./dashboard/settings/exit-survey.md)
     - [Thread Mode](./dashboard/settings/thread-mode.md)
     - [Placeholders](./dashboard/settings/placeholders.md)
     - [Start Ticket From Message](./dashboard/settings/start-ticket-from-message.md)

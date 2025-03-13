@@ -8,8 +8,8 @@ Setting a category for ticket channels which are awaiting the user's response to
 
 ![Awaiting response](../../img/awaiting_response.webp)
 
-This setting is toggleable for each panel. You can find them under the Ticket Panel tab. 10 minutes after the last response from a staff members, the ticket channel will be moved to the awaiting response category.
+This setting can be controlled for each `Ticket Panel` individually. The ticket channel will be moved to the awaiting response category 10 minutes after the last response from a staff member. 
 
 Due to Discord limitations, a channel can only be updated twice every 10 minutes, so it is not possible to change how quickly the channel gets moved to the awaiting response category.
 
-> **Note** This feature is only for servers that have premium activiated. Learn more about premium [here](https://ticketsbot.cloud/premium).
+> **Note:** This feature is only for servers that have premium activiated. Learn more about premium [here](https://ticketsbot.cloud/premium).
