@@ -8,7 +8,7 @@ Multi-panels are the combination of 2 or more Ticket Panels in a single embed:
 ## Creating A Multi-panel
 In order to create a multi-panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Ticket Panels` in the navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
+Once on your server's main settings page, select `Ticket Panels` in the navigation bar:
 
 ![Ticket panel page](../img/panels_navbar.webp)
 
@@ -41,7 +41,7 @@ This is the channel that the multi-panel will be sent in for users to react to. 
 ### Panels
 This input field is where you select which of your already made individual panels you'd like to include in the multi-panel.
 
-### Use Select Menu
+### Use Dropdown Menu
 - **Unchecked** = Ticket options appear as clickable buttons. 
 - **Checked** = Ticket options appear as a dropdown menu.
 

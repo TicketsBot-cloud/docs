@@ -6,9 +6,9 @@
 
 |Placeholder|Description |
 |--|--|
-| %user% | Mentions the user |
+| %user% | Mentions the user, will display nickname if set |
 | %username% | Display the user's name |
-| %user_id% | Display the user's numeric Id |
+| %user_id% | Display the user's numeric ID |
 | %ticket_id% | Display the ticket's numeric ID |
 | %open_tickets% | Display the number of open tickets in the server |
 | %total_tickets% | Display the number of tickets that have ever been opened in the server |
@@ -17,7 +17,7 @@
 | %ticket_limit% | Display the server's ticket limit |
 | %channel% | Mention the channel |
 | %rating_count% | Amount of feedback ratings you have received |
-| %average_rating% | Your average feedback rating |
+| %average_rating% | Displays server's average feedback rating |
 | %time% | Display the current time |
 | %date% | Display today's date |
 | %datetime% | Display the current date and time |
@@ -44,10 +44,23 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
 
+#### Rover
+These placeholders are available if the user has linked their Roblox account via Rover:
+
+|Placeholder|Description |
+|--|--|
+| %rover_status% | status |
+| %rover_username% | The user's Roblox username |
+| %rover_id% | The user's numeric Roblox ID |
+| %rover_displayname% | The user's Roblox display name |
+| %rover_profile_url% | The full clickable URL to the user's Roblox profile |
+| %rover_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
+| %rover_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
+
 ## Custom Naming Scheme Placeholders:
 |Placeholder|Description|
 |--|--|
-| %id% | Display the unique ticket id# |
-| %id_padded% &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Display the unique ticket id# to 4 places &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| %id% | Display the unique ticket ID |
+| %id_padded% &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Display the unique ticket ID to 4 places &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 | %username% | Display the user's name |
 | %nickname% | Display the user's nickname |

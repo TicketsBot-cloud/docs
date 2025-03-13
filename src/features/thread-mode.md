@@ -24,7 +24,7 @@ Instead of the whole support team being added to a ticket when it is opened, the
 
 [^note1]: This is a Discord imposed limitation for all servers, not the Tickets bot
 
-[^note2]: See workaround in FAQ [here](#why-cant-the-bot-add-the-support-team-to-the-thread-straight-away)
+[^note2]: See workaround in FAQ [here](#can-the-support-team-be-added-to-thread-automatically)
 
 [^note3]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
 
@@ -48,7 +48,7 @@ Alternately, you can enable threads via the settings page of the dashboard:
 ### Which mode should I use?
 If you run a server with a small team, we would likely recommend sticking with channel mode. If you run a server with a heavy focus on 1-on-1 support or claiming, we would recommend thread mode. Nevertheless, if you require any of the additional features like reopening tickets, you must use thread mode.
 
-### Why can't the bot add the support team to the thread straight away?
+### Can the support team be added to thread automatically?
 Although it is intended for the support team to click the `Join Ticket` button in the embed message of the `Ticket Notification` channel, it is possible to add support staff automatically. This requires those individuals/roles to be in the `Support Team` & be listed in the `Mention On Open` input for the `Ticket Panel`.
 
 ### Will channel mode be removed?

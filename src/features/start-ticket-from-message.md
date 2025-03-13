@@ -18,7 +18,7 @@ A new ticket will be created with the user who sent the message. The bot will se
 ### Required Permission Level
 To limit usage of this functionality to staff members: visit the [web dashboard](../setup/dashboard.md), select your server, and take a look at the `Settings` page.
 
-You will see a dropdown menu labelled `Required Permission Level` under the `Context Menu (Start Ticket Dropdown)` heading. Adjust the setting to your wish, and then press the `Submit` button.
+You will see a dropdown menu labelled `Required Permission Level` under the `Context Menu (Start Ticket Dropdown)` heading. Adjust the setting to your needs, and then press the `Submit` button.
 
 ![Context menu permission level](../../img/context_menu_permission_level.webp)
 
@@ -30,6 +30,6 @@ If you are using this functionality for users to report messages, you may not wi
 This will also stop the `Conversation moved to ticket` message from being sent.
 
 ### Use Settings From Panel
-By default, tickets opened via the context menu use the `/open` command settings. If you wish to use the settings of a specific reaction panel, i.e. so you can use `Mention On Open`, select the panel you wish to use under the `Use Settings From Panel` dropdown.
+By default, tickets opened via the context menu use the `/open` command settings. If you wish to use the settings of a specific `Ticket Panel`, i.e. so you can use `Mention On Open`, select the panel you wish to use under the `Use Settings From Panel` dropdown.
 
 ![Configuration](../../img/context_menu_panel.webp)

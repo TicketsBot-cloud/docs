@@ -6,3 +6,6 @@
 
 ### How to Link Discord and Patreon
 [Patreon Support Article](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)
+
+### Other Patreon Issues
+[Patreon Support Center](https://support.patreon.com/hc/en-us)

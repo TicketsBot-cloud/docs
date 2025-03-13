@@ -3,7 +3,7 @@
 
 Tickets is highly accessible, supporting over 30 languages at the time of writing.
 
-Use the `/language` command and a embedded message with all supported languages will appear, select the language you want from one of the dropdowns below the message
+Use the `/language` command and an embedded message with all supported languages will appear, select the language you want from one of the dropdowns below the message
 
 ![Language list](../img/languages.webp)
 
