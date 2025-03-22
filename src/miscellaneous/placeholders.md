@@ -49,7 +49,6 @@ These placeholders are available if the user has linked their Roblox account via
 
 |Placeholder|Description |
 |--|--|
-| %rover_status% | status |
 | %rover_username% | The user's Roblox username |
 | %rover_id% | The user's numeric Roblox ID |
 | %rover_displayname% | The user's Roblox display name |
