@@ -1,9 +1,10 @@
 [book]
-authors = ["rxdn"]
+authors = ["rxdn", "Ticketsbot-cloud"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Tickets"
+title = "Tickets V2 Docs"
+description = "Documentation of the Tickets V2 Discord Bot"
 
 [output.html]
 default-theme = "ayu"
