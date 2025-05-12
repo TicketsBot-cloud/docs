@@ -68,5 +68,5 @@
 * [Official Tickets Links](src/miscellaneous/official-links.md)
 * [Patreon Links/Articles](src/miscellaneous/patreon.md)
 * [Placeholders](src/miscellaneous/placeholders.md)
-* [Translate the Bot](src/setup/languages.md)
-* [Dashboard: "No Permission"](src/miscellaneous/dashboard-no-permission.md) 
+*
+* [Dashboard: "No Permission"](src/miscellaneous/dashboard-no-permission.md)
