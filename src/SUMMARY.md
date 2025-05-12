@@ -1,4 +1,5 @@
 # SUMMARY
+[Introduction](./Introduction/introduction.md)
 
 - [Setup](./setup/introduction.md)
   - [Inviting the Bot](./setup/invite.md)
