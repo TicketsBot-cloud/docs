@@ -4,7 +4,6 @@
 
 ## Setup
 
-* [Introduction](src/setup/introduction.md)
 * [Inviting the Bot](src/setup/invite.md)
 * [Language Customisation](src/setup/languages.md)
 * [Bot Configuration](src/setup/configuration.md)
