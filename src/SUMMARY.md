@@ -1,58 +1,72 @@
-# Summary
+# Table of contents
 
-- [Setup](setup/introduction.md)
-  - [Inviting the Bot](setup/invite.md)
-  - [Language Customisation](setup/languages.md)
-  - [Bot Configuration](setup/configuration.md)
-    - [Web Dashboard](setup/dashboard.md)
-    - [Auto](setup/auto.md)
-    - [Individual Settings](setup/individual.md)
-  - [Ticket Panels](setup/panels.md)
-  - [Support Staff](setup/staff.md)
+* [Introduction](README.md)
 
-- [Commands](commands/introduction.md)
-  - [Command List](commands/commands.md)
-    - [Add Admin / Support](commands/add-admin-support.md)
-    - [Close Requests](commands/close-requests.md)
+## Setup
 
-- [Dashboard](dashboard/introduction.md)
-  - [Settings](dashboard/settings/settings.md)
-    - [User Feedback](dashboard/settings/feedback.md)
-    - [Exit Survey](dashboard/settings/exit-survey.md)
-    - [Thread Mode](dashboard/settings/thread-mode.md)
-    - [Placeholders](dashboard/settings/placeholders.md)
-    - [Start Ticket From Message](dashboard/settings/start-ticket-from-message.md)
-    - [Claiming Tickets](dashboard/settings/claiming.md)
-    - [Awaiting User Response](dashboard/settings/awaiting-response.md)
-  - [Transcripts](dashboard/transcripts.md)
-  - [Panels](dashboard/reaction-panels.md)
-    - [Multi-Panels](dashboard/multipanels.md)
-  - [Forms](dashboard/forms.md)
-  - [Staff Teams](dashboard/staff-teams.md)
-  - [Integrations](integrations/introduction.md)
-    - [Building Integrations](integrations/building-integrations.md)
-    - [A Note on Cloudflare Workers](integrations/cloudflare-workers.md)
-    - [FiveM Integration](integrations/fivem.md)
-    - [Chargebee Integration](integrations/chargebee.md)
-  - [Tickets](dashboard/tickets.md)
-  - [Blacklist](dashboard/blacklist.md)
-  - [Tags](dashboard/tags.md)
+* [Introduction](src/setup/introduction.md)
+* [Inviting the Bot](src/setup/invite.md)
+* [Language Customisation](src/setup/languages.md)
+* [Bot Configuration](src/setup/configuration.md)
+  * [Web Dashboard](src/setup/dashboard.md)
+  * [Auto](src/setup/auto.md)
+  * [Individual Settings](src/setup/individual.md)
+* [Ticket Panels](src/setup/panels.md)
+* [Support Staff](src/setup/staff.md)
 
-- [Premium](premium/introduction.md)
-  - [Premium and Whitelabel Perks](premium/perks.md)
-  - [Whitelabel Setup Guide](premium/whitelabel-setup-guide.md)
+## Commands
 
-- [Features](features/introduction.md)
-  - [Thread Mode](features/thread-mode.md)
-  - [Forms](features/forms.md)
-  - [Multi-Panels](features/multipanels.md)
-  - [Start Ticket from Message](features/start-ticket-from-message.md)
-  - [Close Requests](features/close-requests.md)
-  - [User Feedback](features/feedback.md)
+* [Introduction](src/commands/introduction.md)
+* [Command List](src/commands/commands.md)
+  * [Add Admin / Support](src/commands/add-admin-support.md)
+  * [Close Requests](src/commands/close-requests.md)
 
-- [Miscellaneous](miscellaneous/introduction.md)
-  - [Official Tickets Links](miscellaneous/official-links.md)
-  - [Patreon Links/Articles](miscellaneous/patreon.md)
-  - [Placeholders](miscellaneous/placeholders.md)
-  - [Translate the Bot](setup/languages.md)
-  - [Dashboard: "No Permission"](miscellaneous/dashboard-no-permission.md)
+## Dashboard
+
+* [Introduction](src/dashboard/introduction.md)
+* [Settings](src/dashboard/settings/settings.md)
+  * [User Feedback](src/dashboard/settings/feedback.md)
+  * [Exit Survey](src/dashboard/settings/exit-survey.md)
+  * [Thread Mode](src/dashboard/settings/thread-mode.md)
+  * [Placeholders](src/dashboard/settings/placeholders.md)
+  * [Start Ticket From Message](src/dashboard/settings/start-ticket-from-message.md)
+  * [Claiming Tickets](src/dashboard/settings/claiming.md)
+  * [Awaiting User Response](src/dashboard/settings/awaiting-response.md)
+* [Transcripts](src/dashboard/transcripts.md)
+* [Panels](src/dashboard/reaction-panels.md)
+  * [Multi-Panels](src/dashboard/multipanels.md)
+* [Forms](src/dashboard/forms.md)
+* [Staff Teams](src/dashboard/staff-teams.md)
+
+## Integrations
+
+* [Introduction](src/integrations/introduction.md)
+* [Building Integrations](src/integrations/building-integrations.md)
+* [A Note on Cloudflare Workers](src/integrations/cloudflare-workers.md)
+* [FiveM Integration](src/integrations/fivem.md)
+* [Chargebee Integration](src/integrations/chargebee.md)
+
+## Premium
+
+* [Introduction](src/premium/introduction.md)
+* [Premium and Whitelabel Perks](src/premium/perks.md)
+* [Whitelabel Setup Guide](src/premium/whitelabel-setup-guide.md)
+
+## Features
+
+* [Introduction](src/features/introduction.md)
+* [Thread Mode](src/features/thread-mode.md)
+* [Forms](src/features/forms.md)
+* [Multi-Panels](src/features/multipanels.md)
+* [Start Ticket from Message](src/features/start-ticket-from-message.md)
+* [Close Requests](src/features/close-requests.md)
+* [User Feedback](src/features/feedback.md)
+
+## Miscellaneous
+
+* [Introduction](src/miscellaneous/introduction.md)
+* [Official Tickets Links](src/miscellaneous/official-links.md)
+* [Patreon Links/Articles](src/miscellaneous/patreon.md)
+* [Placeholders](src/miscellaneous/placeholders.md)
+* [Translate the Bot](src/setup/languages.md)
+* [Dashboard: "No Permission"](src/miscellaneous/dashboard-no-permission.md) 
