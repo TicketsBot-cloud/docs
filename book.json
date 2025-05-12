@@ -1,0 +1,19 @@
+{
+  "title": "Tickets",
+  "author": "rxdn",
+  "language": "en",
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "copy-code-button",
+    "expandable-chapters"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    }
+  }
+} 
