@@ -18,4 +18,4 @@ Discord will then present you with a screen stating that you've authorised the b
 
 If you need the bot to be in a language other than English, learn more [here](./languages.md).
 
-If not, let's start configuring the bot: [Bot Configuration](./configuration.md)
+If not, let's start configuring the bot's Permissions: [Permissions Configuration](./permissions.md)
