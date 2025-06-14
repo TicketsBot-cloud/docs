@@ -12,6 +12,11 @@ Not only does this add the specified user to the Default Team in Staff Teams, bu
 - Having admin privileges of the bot means the user will be able to use the [web dashboard](https://dashboard.tickets.bot) fully, and control all the configuration, settings, customization of the bot, as well as see ALL of the tickets/transcripts contained there. *Only give this privilege to those you trust.*
 
 ## Add Support
-**Command:** `/addsupport @username`, `/addsupport @role`
+**Command:** `/addsupport @role`
+
+ <div class="warning">
+
+  **Warning:** Users in Support Teams are now deprecated. Please migrate to roles.
+</div>
  
 This adds the specified user to the Default Team in Staff Teams. The only thing they will be able to see on the web dashboard are the tickets where the Default Team has been assigned as a support team.
