@@ -80,7 +80,7 @@ There are a few more **optional** steps below, if you wish to take them.
 ## Optional: Set Custom Status
 You can optionally change your custom bot's status. Simply enter the new status on the dashboard and press `Submit`.
 
-`Playing`, `Listening`, and `Watching` are all currently available. 
+`Playing`, `Listening`, `Watching`, `Competing` and `Custom` are all currently available. 
 
 ![Custom Status](/img/whitelabel/custom_status.webp)
 
