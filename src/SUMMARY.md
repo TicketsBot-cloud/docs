@@ -3,6 +3,7 @@
 - [Setup](./setup/introduction.md)
   - [Inviting the Bot](./setup/invite.md)
   - [Language Customisation](./setup/languages.md)
+  - [Permission Configuration](./setup/permissions.md)
   - [Bot Configuration](./setup/configuration.md)
     - [Web Dashboard](./setup/dashboard.md)
     - [Auto](./setup/auto.md)
