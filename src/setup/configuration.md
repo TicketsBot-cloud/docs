@@ -10,7 +10,7 @@ Tickets was a very early adopter of slash commands, meaning that you can simply 
 If you're not the owner of the server, now would be a good time to get the owner to designate you as an admin of Tickets. You can do this by asking the owner to run the command `/addadmin @YourUsername` in a channel the bot can see. If successful, Tickets will show you a ✅.
 
 We've created a few different ways in which you can configure the bot:
-- Via the [web dashboard](https://dashboard.ticketsbot.cloud) **[Recommended]**
+- Via the [web dashboard](https://dashboard.tickets.bot) **[Recommended]**
 - Via `/setup`
   - Auto
   - Individual Settings

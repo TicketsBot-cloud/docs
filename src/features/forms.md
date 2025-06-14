@@ -11,7 +11,7 @@ To set this up, a form must first be created and then applied to a [Ticket Panel
 <video src="../vid/Forms.mp4" controls poster="../img/video_thumbnails/Thumbnail_Forms.webp"></video>
 
 ## Creating the Form
-First, head over to the [dashboard](https://dashboard.ticketsbot.cloud) and select your server.
+First, head over to the [dashboard](https://dashboard.tickets.bot) and select your server.
 
 Then, select the `Forms` tab in the navigation bar:
 

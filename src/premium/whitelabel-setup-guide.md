@@ -33,7 +33,7 @@ Click on `Bot` on the sidebar of the Discord developer portal and copy the token
 
 ![Copy Token](/img/whitelabel/copy_token.webp)
 
-Then head over to the Tickets dashboard [Whitelabel section](https://dashboard.ticketsbot.cloud/whitelabel). Paste the token into the `Bot Token` field and press `Submit`:
+Then head over to the Tickets dashboard [Whitelabel section](https://dashboard.tickets.bot/whitelabel). Paste the token into the `Bot Token` field and press `Submit`:
 
 > **Note:**
 > - There may be up to a 10 minute delay for the whitelabel section of dashboard to recognize your status.
@@ -90,7 +90,7 @@ On the `General Information` tab of the Discord developer portal, you may have n
 
 You should enter our policies here to inform users of how their data may be used.
 
-**Terms Of Service:** https://ticketsbot.cloud/terms-of-service  
-**Privacy Policy:** https://ticketsbot.cloud/privacy
+**Terms Of Service:** https://tickets.bot/terms-of-service  
+**Privacy Policy:** https://tickets.bot/privacy
 
 ![Policies](/img/whitelabel/policies.webp)

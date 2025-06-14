@@ -31,7 +31,7 @@
   <p align="center">
     All documentation for the Discord bot "Tickets v2"
     <br />
-    <a href="https://docs.ticketsbot.cloud/"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.tickets.bot/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/TicketsBot-cloud/docs/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -73,7 +73,7 @@
 
 ![Tickets Screen Shot](/src/img/tickets_docs_readme_intro.webp)
 
-User-facing documentation for [Tickets v2](https://ticketsbot.cloud). Tickets is a simple, customisable, and powerful Discord ticket system bot complete with a web UI.
+User-facing documentation for [Tickets v2](https://tickets.bot). Tickets is a simple, customisable, and powerful Discord ticket system bot complete with a web UI.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

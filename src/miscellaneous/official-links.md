@@ -2,16 +2,16 @@
 ***
 
 ### Website
-[ticketsbot.cloud](https://ticketsbot.cloud/)
+[tickets.bot](https://tickets.bot/)
 
 ### Invite The Bot
-[invite.ticketsbot.cloud](https://invite.ticketsbot.cloud/)
+[invite.tickets.bot](https://invite.tickets.bot/)
 
 ### Dashboard
-[dashboard.ticketsbot.cloud](https://dashboard.ticketsbot.cloud/)
+[dashboard.tickets.bot](https://dashboard.tickets.bot/)
 
 ### Documentation
-[docs.ticketsbot.cloud](https://docs.ticketsbot.cloud/)
+[docs.tickets.bot](https://docs.tickets.bot/)
 
 ### Discord Support Server
 [Support Server](https://discord.gg/ticketsbot)

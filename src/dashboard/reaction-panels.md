@@ -50,14 +50,14 @@ Users can be requested to leave feedback when their ticket is closed.
 
 - _Learn more about Exit Surveys [here](../dashboard/settings/exit-survey.md)._
 
-> **Note:** This is a premium feature. Learn more about premium [here](https://ticketsbot.cloud/premium).
+> **Note:** This is a premium feature. Learn more about premium [here](https://tickets.bot/premium).
 
 ### Awaiting Response Category 
 Tickets awaiting a user's response can be moved to a different category.
 
 - _Learn more about Awaiting Response Category [here](../dashboard/settings/awaiting-response.md)._
 
-> **Note:** This is a premium feature. Learn more about premium [here](https://ticketsbot.cloud/premium).
+> **Note:** This is a premium feature. Learn more about premium [here](https://tickets.bot/premium).
 
 ## Panel Message
 ***

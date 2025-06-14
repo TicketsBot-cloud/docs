@@ -1,7 +1,7 @@
 # Bot Configuration: Web Dashboard
 ***
 
-First, head over to the dashboard at [dashboard.ticketsbot.cloud](https://dashboard.ticketsbot.cloud). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
+First, head over to the dashboard at [dashboard.tickets.bot](https://dashboard.tickets.bot). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](../img/login.webp)
 

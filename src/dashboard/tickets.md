@@ -30,4 +30,4 @@ The ticket can be closed from this view, with or without a reason specified.
 
 ### Premium Perks
 Those with premium, will get real-time updates, be able to respond to messages, and close the ticket in this view.  
-- *Learn more about premium [here](https://ticketsbot.cloud/premium).*
+- *Learn more about premium [here](https://tickets.bot/premium).*

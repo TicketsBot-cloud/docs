@@ -10,7 +10,7 @@ Now that the ticket system is in place, Tickets bot needs to know which of your 
 
 ## Staff members handle SPECIFIC tickets
 ***
-> Setting the support staff in this scenario can only be accomplished via the [web dashboard](https://dashboard.ticketsbot.cloud). A guide on this can be found [here](../dashboard/staff-teams.md).
+> Setting the support staff in this scenario can only be accomplished via the [web dashboard](https://dashboard.tickets.bot). A guide on this can be found [here](../dashboard/staff-teams.md).
 
 
 ## Staff members handle ALL tickets
@@ -19,7 +19,7 @@ Now that the ticket system is in place, Tickets bot needs to know which of your 
 **Command:** `/addadmin @username` or `/addadmin @role`
 
 Not only does this add the specified user to the Default Team in Staff Teams, but it also gives that user full administrative privileges of the Tickets bot for your server. This is just having admin of the Tickets bot, **not your server**.
-- Having admin privileges of the bot means the user will be able to use the [web dashboard](https://dashboard.ticketsbot.cloud) fully, and control all the configuration, settings, customization of the bot, as well as see ALL of the tickets/transcripts contained there. ***Only give this privilege to those you trust.***
+- Having admin privileges of the bot means the user will be able to use the [web dashboard](https://dashboard.tickets.bot) fully, and control all the configuration, settings, customization of the bot, as well as see ALL of the tickets/transcripts contained there. ***Only give this privilege to those you trust.***
 
 **Command:** `/addsupport @username` or `/addsupport @role`
  

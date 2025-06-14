@@ -9,14 +9,14 @@ If you run a service that incorporates [Discord OAuth](https://discord.com/devel
 
 A simple example would be a forum! When a user opens a ticket in your Discord server, you could include the user's forum username automatically.
 
-Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.ticketsbot.cloud/setup/placeholders#bloxlink).
+Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.tickets.bot/setup/placeholders#bloxlink).
 
 Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration.
 
 ## Background Setup
 Let's say we run a game, where users link their accounts to their Discord accounts. Users have usernames, scores and other metadata which we wish to display in the welcome message when a user opens a ticket.
 
-The following is some simple code that serves some example JSON data that we will be using for this tutorial. Let's say that this code is running on a web server, accessible at `https://example.ticketsbot.cloud`:
+The following is some simple code that serves some example JSON data that we will be using for this tutorial. Let's say that this code is running on a web server, accessible at `https://example.tickets.bot`:
 
 ```js
 const express = require("express");
@@ -43,10 +43,10 @@ app.listen(process.env.PORT, () => console.log("Listening..."));
 
 The server responds with the user object stored in the `users` dictionary if it exists, or alternatively with an empty JSON object, `{}`.
 
-For example, sending a request to `https://example.ticketsbot.cloud/lookup?user=585576154958921739`:
+For example, sending a request to `https://example.tickets.bot/lookup?user=585576154958921739`:
 
 ```bash
-$ curl https://example.ticketsbot.cloud/lookup?user=585576154958921739 | jq .
+$ curl https://example.tickets.bot/lookup?user=585576154958921739 | jq .
 {
   "online_status": "Online",
   "user": {
@@ -67,7 +67,7 @@ All data types are supported, except for JSON arrays. You should pre-process you
 ## Creating Your Integration
 Now that we have somewhere to pull data from, we can start linking it up with Tickets!
 
-First, head over to our [web dashboard](https://dashboard.ticketsbot.cloud), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
+First, head over to our [web dashboard](https://dashboard.tickets.bot), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
 
 ![Navigation](/img/integrations/navbar.webp)
 
@@ -81,7 +81,7 @@ You will be then be prompted to enter information about how the integration work
 
 ![Request URL](/img/integrations/request_url.webp)
 
-Upon a ticket being opened, we will send a HTTP request to the provided request URL, to which you should respond with a JSON object that we can extract values of your choice from. You can use the placeholder `%user_id%` in the URL, which will be replaced with the user ID of the user who opened the ticket. In our case, we set this to `https://example.ticketsbot.cloud/lookup?user=%user_id%`.
+Upon a ticket being opened, we will send a HTTP request to the provided request URL, to which you should respond with a JSON object that we can extract values of your choice from. You can use the placeholder `%user_id%` in the URL, which will be replaced with the user ID of the user who opened the ticket. In our case, we set this to `https://example.tickets.bot/lookup?user=%user_id%`.
 
 Requests can either be sent as GET or POST requests. POST requests are sent with a JSON body with information about the ticket. An example body is as follows:
 
