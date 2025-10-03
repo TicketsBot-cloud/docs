@@ -44,18 +44,6 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
 
-#### Rover
-These placeholders are available if the user has linked their Roblox account via Rover:
-
-|Placeholder|Description |
-|--|--|
-| %rover_username% | The user's Roblox username |
-| %rover_id% | The user's numeric Roblox ID |
-| %rover_display_name% | The user's Roblox display name |
-| %rover_profile_url% | The full clickable URL to the user's Roblox profile |
-| %rover_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
-| %rover_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
-
 ## Custom Naming Scheme Placeholders:
 |Placeholder|Description|
 |--|--|
