@@ -33,7 +33,6 @@
     - [Building Integrations](./integrations/building-integrations.md)
     - [A Note on Cloudflare Workers](./integrations/cloudflare-workers.md)
     - [FiveM Integration](./integrations/fivem.md)
-    - [Chargebee Integration](./integrations/chargebee.md)
   - [Tickets](./dashboard/tickets.md)
   - [Blacklist](./dashboard/blacklist.md)
   - [Tags](./dashboard/tags.md)
