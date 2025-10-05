@@ -1,11 +1,11 @@
 # Tickets V2 Bot Official Documentation 
 
 These Docs will help you with: 
-* setting up the Bot
-* explain each feature of the Bot
-* tell you how to set each feature up
-* how to use the bot correctly
-* how to fix issues with permissions
+* Setting up the Bot
+* Explain each feature of the Bot
+* Tell you how to set each feature up
+* How to use the bot correctly
+* How to fix issues with permissions
 
 ## These Docs are a living Document
 Updates to the docs are made frequently.
