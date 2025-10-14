@@ -165,7 +165,6 @@ The completion message shows:
 - There is no way to cancel a queued request
 
 ### Processing Limits
-- Message deletion requests process up to thousands of messages
 - Large transcript deletions may take longer to complete
 - No limit on the number of servers or tickets per request
 
