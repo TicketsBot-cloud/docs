@@ -1,7 +1,9 @@
 # GDPR Data Request
-***
 
+***
 The `/gdpr` command allows users to exercise their data protection rights under the General Data Protection Regulation (GDPR). This command enables users to request deletion of ticket transcripts from servers they own, or anonymization of their messages from transcripts they participated in.
+
+> **Note:** This command can **only be used in Direct Messages (DMs)** with the bot for privacy and security reasons.
 
 <div class="warning">
 
@@ -10,19 +12,21 @@ The `/gdpr` command allows users to exercise their data protection rights under 
 
 ## Overview
 
-When you run the `/gdpr` command, you'll see an interactive menu with different request types:
+When you run the `/gdpr` command in your DMs with the bot, you'll see an interactive menu with different request types:
 
 ![GDPR Request Menu](../img/gdpr/gdpr_request.png)
 
 The command provides two main categories of requests:
 
 ### Transcript Deletion Options
+
 *Delete transcripts from servers you own*
 
 - **All transcripts from a server** - Deletes all ticket transcripts from one or more servers you own
 - **Specific transcripts** - Deletes only specified ticket transcripts from a server you own
 
 ### Message Deletion Options
+
 *Remove your messages from ticket transcripts*
 
 - **All messages from account** - Anonymizes all your messages across all transcripts you participated in
@@ -43,10 +47,12 @@ If no language is specified, the command defaults to English.
 **What it does:** Permanently deletes all ticket transcripts from the selected server(s).
 
 **Requirements:**
+
 - You must be the **owner** of the server
 - The server must have existing transcripts
 
 **Process:**
+
 1. Click "All transcripts from a server"
 2. Select one or more servers from the dropdown menu (only servers you own with transcripts will appear)
 3. Review the confirmation screen showing which servers will be affected
@@ -59,11 +65,13 @@ If no language is specified, the command defaults to English.
 **What it does:** Permanently deletes specific ticket transcripts from a server you own.
 
 **Requirements:**
+
 - You must be the **owner** of the server
 - The server must have existing transcripts
 - You must provide valid ticket IDs
 
 **Process:**
+
 1. Click "Specific transcripts"
 2. Select the server from the dropdown menu
 3. Enter the ticket IDs you want deleted (comma-separated: e.g., `1, 2, 5, 12`)
@@ -71,6 +79,7 @@ If no language is specified, the command defaults to English.
 5. Click "Confirm - I understand" to submit the request
 
 **Ticket ID Format:**
+
 - Comma-separated: `1, 2, 5, 12`
 - One per line
 
@@ -79,9 +88,11 @@ If no language is specified, the command defaults to English.
 **What it does:** Anonymizes all your messages in every transcript you participated in across all servers.
 
 **Requirements:**
+
 - Must be requested from the same Discord account as the messages to be deleted
 
 **Process:**
+
 1. Click "All messages from account"
 2. Review the confirmation screen
 3. Click "Confirm - I understand" to submit the request
@@ -89,6 +100,7 @@ If no language is specified, the command defaults to English.
 ![Message Confirmation](../img/gdpr/gdpr_messages_confirm.png)
 
 **What happens to your messages:**
+
 - Your username becomes "Removed for privacy"
 - Message content is replaced with "[This message was removed in accordance with data protection regulations]"
 - All embeds and attachments are removed
@@ -99,11 +111,13 @@ If no language is specified, the command defaults to English.
 **What it does:** Anonymizes your messages only in specified ticket transcripts.
 
 **Requirements:**
+
 - You must have been a participant in the tickets
 - You must provide a valid server ID
 - You must provide valid ticket IDs
 
 **Process:**
+
 1. Click "Messages in specific tickets"
 2. Enter the Server ID
 3. Enter the ticket IDs (comma-separated: e.g., `1, 2, 5, 12`)
@@ -119,6 +133,7 @@ After confirmation, your request is queued for processing:
 ![Request Queued](../img/gdpr/gdpr_queued.png)
 
 ### Processing Timeline
+
 - Requests are queued immediately after confirmation
 - Processing typically begins within a few hours
 - Complete processing may take **up to 30 days** depending on the volume of data
@@ -132,6 +147,7 @@ Once your request has been processed, you'll receive two notifications:
 2. **Ephemeral Follow-up** - An ephemeral message confirming successful processing
 
 The completion message shows:
+
 - **For transcript deletions:** Number of transcripts deleted
 - **For message deletions:** Number of messages anonymized
 
@@ -142,10 +158,12 @@ The completion message shows:
 ### What Can and Cannot Be Deleted
 
 **You CAN:**
+
 - ✅ Delete transcripts from servers you own
 - ✅ Delete your own messages from any transcript you participated in
 
 **You CANNOT:**
+
 - ❌ Delete transcripts from servers you don't own
 - ❌ Delete other users' messages (unless you own the server and delete the entire transcript)
 - ❌ Recover deleted transcripts or messages
@@ -159,14 +177,11 @@ The completion message shows:
 </div>
 
 ### Request Queue
+
 - Requests are processed in the order they are received
 - You can have multiple pending requests
 - Closing your DMs or leaving the support server will **not** cancel your request
 - There is no way to cancel a queued request
-
-### Processing Limits
-- Large transcript deletions may take longer to complete
-- No limit on the number of servers or tickets per request
 
 ## Frequently Asked Questions
 
