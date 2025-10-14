@@ -15,6 +15,7 @@
   - [Command List](./commands/commands.md)
     - [Add Admin / Support](./commands/add-admin-support.md)
     - [Close Requests](./commands/close-requests.md)
+    - [GDPR Data Request](./commands/gdpr.md)
 
 - [Dashboard](./dashboard/introduction.md)
   - [Settings](./dashboard/settings/settings.md)
