@@ -22,15 +22,15 @@ The command provides two main categories of requests:
 
 *Delete transcripts from servers you own*
 
-- **All transcripts from a server** - Deletes all ticket transcripts from one or more servers you own
+- **All transcripts from servers** - Deletes all ticket transcripts from one or more servers you own
 - **Specific transcripts** - Deletes only specified ticket transcripts from a server you own
 
-### Message Deletion Options
+### Message Anonymization Options
 
-*Remove your messages from ticket transcripts*
+*Anonymize your messages from ticket transcripts*
 
-- **All messages from account** - Anonymizes all your messages across all transcripts you participated in
-- **Messages in specific tickets** - Anonymizes your messages only in specified ticket transcripts
+- **All your messages in servers** - Anonymizes your messages in transcripts from one or more selected servers where you participated
+- **Your messages in specific tickets** - Anonymizes your messages only in specified ticket transcripts
 
 ## Language Support
 
@@ -42,21 +42,25 @@ If no language is specified, the command defaults to English.
 
 ## Request Types
 
-### All Transcripts from a Server
+### All Transcripts from Servers
 
-**What it does:** Permanently deletes all ticket transcripts from the selected server(s).
+**What it does:** Permanently deletes all ticket transcripts from one or more selected servers.
 
 **Requirements:**
 
-- You must be the **owner** of the server
-- The server must have existing transcripts
+- You must be the **owner** of the server(s)
+- The server(s) must have existing transcripts
 
 **Process:**
 
-1. Click "All transcripts from a server"
-2. Select one or more servers from the dropdown menu (only servers you own with transcripts will appear)
+1. Click "All transcripts from servers"
+2. Select one or more servers:
+   - **If you own 25 or fewer servers:** Use the dropdown menu to select servers (multi-select enabled)
+   - **If you own more than 25 servers:** Enter server IDs manually in the text field (comma-separated)
 3. Review the confirmation screen showing which servers will be affected
 4. Click "Confirm - I understand" to submit the request
+
+> **Note:** Only servers you **own** with existing transcripts will appear in the dropdown menu.
 
 ![Confirmation Screen](../img/gdpr/gdpr_confirm.png)
 
@@ -73,29 +77,42 @@ If no language is specified, the command defaults to English.
 **Process:**
 
 1. Click "Specific transcripts"
-2. Select the server from the dropdown menu
-3. Enter the ticket IDs you want deleted (comma-separated: e.g., `1, 2, 5, 12`)
+2. Select the server:
+   - **If you own 25 or fewer servers:** Use the dropdown menu to select one server
+   - **If you own more than 25 servers:** Enter the server ID manually in the text field
+3. Enter the ticket IDs you want deleted in the provided text field
 4. Review the confirmation screen
 5. Click "Confirm - I understand" to submit the request
 
+> **Note:** Only servers you **own** with existing transcripts will appear in the dropdown menu.
+
 **Ticket ID Format:**
+You can use any of the following separators:
 
 - Comma-separated: `1, 2, 5, 12`
-- One per line
+- Semicolon-separated: `1; 2; 5; 12`
+- One per line (newline-separated)
+- Tab-separated
 
-### All Messages from Your Account
+### All Your Messages in Servers
 
-**What it does:** Anonymizes all your messages in every transcript you participated in across all servers.
+**What it does:** Anonymizes all your messages in transcripts from one or more selected servers where you participated.
 
 **Requirements:**
 
-- Must be requested from the same Discord account as the messages to be deleted
+- Must be requested from the same Discord account as the messages to be anonymized
+- You must have participated in tickets in the selected server(s)
 
 **Process:**
 
-1. Click "All messages from account"
-2. Review the confirmation screen
-3. Click "Confirm - I understand" to submit the request
+1. Click "All your messages in servers"
+2. Select one or more servers:
+   - **If you have messages in 25 or fewer servers:** Use the dropdown menu to select servers (multi-select enabled)
+   - **If you have messages in more than 25 servers:** Enter server IDs manually in the text field (comma-separated)
+3. Review the confirmation screen showing which servers will be affected
+4. Click "Confirm - I understand" to submit the request
+
+> **Note:** Only servers where you have **participated in tickets** with transcripts will appear in the dropdown menu. You do **not** need to be the server owner for this option.
 
 ![Message Confirmation](../img/gdpr/gdpr_messages_confirm.png)
 
@@ -106,9 +123,9 @@ If no language is specified, the command defaults to English.
 - All embeds and attachments are removed
 - Your user ID is anonymized
 
-### Messages in Specific Tickets
+### Your Messages in Specific Tickets
 
-**What it does:** Anonymizes your messages only in specified ticket transcripts.
+**What it does:** Anonymizes your messages only in specified ticket transcripts from a server.
 
 **Requirements:**
 
@@ -118,11 +135,23 @@ If no language is specified, the command defaults to English.
 
 **Process:**
 
-1. Click "Messages in specific tickets"
-2. Enter the Server ID
-3. Enter the ticket IDs (comma-separated: e.g., `1, 2, 5, 12`)
+1. Click "Your messages in specific tickets"
+2. Select the server:
+   - **If you have messages in 25 or fewer servers:** Use the dropdown menu to select one server
+   - **If you have messages in more than 25 servers:** Enter the server ID manually in the text field
+3. Enter the ticket IDs you want your messages removed from in the provided text field
 4. Review the confirmation screen
 5. Click "Confirm - I understand" to submit the request
+
+> **Note:** Only servers where you have **participated in tickets** with transcripts will appear in the dropdown menu. You do **not** need to be the server owner for this option.
+
+**Ticket ID Format:**
+You can use any of the following separators:
+
+- Comma-separated: `1, 2, 5, 12`
+- Semicolon-separated: `1; 2; 5; 12`
+- One per line (newline-separated)
+- Tab-separated
 
 > **Tip:** To find a server ID, enable Developer Mode in Discord settings, then right-click the server icon and select "Copy Server ID". [More info](http://dis.gd/findmyid)
 
@@ -139,17 +168,31 @@ After confirmation, your request is queued for processing:
 - Complete processing may take **up to 30 days** depending on the volume of data
 - You'll receive a notification when processing is complete
 
+### System Availability
+
+The GDPR processing system runs on a separate worker service. If the system is temporarily unavailable, you'll see an error message:
+
+**"The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."**
+
+This can happen during:
+- Scheduled maintenance
+- Service updates
+- Temporary downtime
+
+If you see this error, please try again in a few minutes. If the issue persists, contact support through the [support server](https://discord.gg/ticketsbot).
+
 ### Completion Notification
 
 Once your request has been processed, you'll receive two notifications:
 
 1. **Updated Message** - The original message is updated to show completion status
-2. **Ephemeral Follow-up** - An ephemeral message confirming successful processing
+2. **Follow-up** - An ephemeral message (visible only to you) confirming processing status
 
 The completion message shows:
 
 - **For transcript deletions:** Number of transcripts deleted
-- **For message deletions:** Number of messages anonymized
+- **For message anonymization:** Number of messages anonymized
+- **If error occurred:** Error details and reason
 
 ![Request Complete](../img/gdpr/gdpr_done.png)
 
@@ -160,34 +203,35 @@ The completion message shows:
 **You CAN:**
 
 - ✅ Delete transcripts from servers you own
-- ✅ Delete your own messages from any transcript you participated in
+- ✅ Anonymize your own messages from any transcript you participated in
 
 **You CANNOT:**
 
 - ❌ Delete transcripts from servers you don't own
-- ❌ Delete other users' messages (unless you own the server and delete the entire transcript)
-- ❌ Recover deleted transcripts or messages
-- ❌ Undo a GDPR request once processed
+- ❌ Anonymize or delete other users' messages (unless you own the server and delete the entire transcript)
+- ❌ Recover deleted transcripts or anonymized messages
+- ❌ Undo a GDPR request once it's been queued or processed
+- ❌ Cancel a request after it has been submitted
 
 ### Permanence Warning
 
 <div class="warning">
 
-**⚠️ Warning:** All GDPR deletions are permanent and irreversible. Once data is deleted or anonymized, it cannot be recovered. Make absolutely sure you want to proceed before confirming any request.
+**⚠️ Warning:** All GDPR deletions and anonymizations are permanent and irreversible. Once data is deleted or anonymized, it cannot be recovered. Make absolutely sure you want to proceed before confirming any request.
 </div>
 
 ### Request Queue
 
 - Requests are processed in the order they are received
 - You can have multiple pending requests
-- Closing your DMs or leaving the support server will **not** cancel your request
-- There is no way to cancel a queued request
+- Closing your DMs with the bot will **not** cancel your request
+- Once a request is queued, there is **no way to cancel it**
 
 ## Frequently Asked Questions
 
 **How long does processing take?**
 
-Most requests are processed within a few minutes to a few hours, but GDPR regulations allow up to 30 days for completion.
+Most requests are processed within a few minutes to a few hours, but GDPR regulations allow up to 30 days for completion. The processing time depends on the amount of data and the current queue length.
 
 **Can I cancel a request after submitting it?**
 
@@ -195,19 +239,36 @@ No, once a request is queued, it cannot be cancelled. Please review carefully be
 
 **Will I be notified if my request fails?**
 
-Yes, you'll receive a notification explaining why the request failed.
+Yes, you'll receive an ephemeral follow-up message and the original message will be updated explaining why the request failed.
+
+**Can I select multiple servers at once?**
+
+Yes! For "All transcripts from servers" and "All your messages in servers" options, you can select multiple servers using the multi-select dropdown menu (if you have 25 or fewer eligible servers) or by entering comma-separated server IDs (if you have more than 25).
+
+**What's the difference between deleting transcripts and anonymizing messages?**
+
+- **Deleting transcripts:** Completely removes the entire transcript file for all tickets. This requires server ownership.
+- **Anonymizing messages:** Replaces your messages with anonymized text while keeping the transcript intact. This does not require server ownership.
 
 **Can I request an export of my data before deletion?**
 
 Currently, data export is not available through the bot. Please contact support via the support server for data export requests.
 
-**Does message deletion affect other users' ability to see the transcript?**
+**Does message anonymization affect other users' ability to see the transcript?**
 
-No, only your messages are anonymized. The transcript remains visible with your messages replaced.
+No, only your messages are anonymized. The transcript remains visible to others, but your messages and username will be replaced.
 
 **What if I accidentally request deletion of the wrong data?**
 
-Unfortunately, there is no undo function. Deleted data cannot be recovered. Always double-check your request before confirming.
+Unfortunately, there is no undo function. Deleted data and anonymized messages cannot be recovered. Always double-check your request before confirming.
+
+**What happens if the GDPR worker is offline?**
+
+If the GDPR processing service is temporarily unavailable, you'll see an error message and won't be able to submit requests. Try again in a few minutes, or contact support if the issue persists.
+
+**Do I need to stay in the support server or keep my DMs open?**
+
+No, once your request is queued, it will continue processing even if you close your DMs or are offline. You'll receive the completion notification when you next open your DMs with the bot.
 
 ## Resources
 
