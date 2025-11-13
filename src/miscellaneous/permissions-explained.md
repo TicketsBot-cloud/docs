@@ -40,6 +40,12 @@ Below is a rough explanation of what each permission is used for:
 
 * `Use Application Commands` "Allows the bot's slash commands to work."
 
+* `Manage Channels` "Allows the bot to create ticket channels and modify them."
+
+* `Manage Webhooks` "Allows the bot to create a webhook in the ticket channel used for sending messages from the Dashboard."
+
+* `Pin Messages` "Allows the bot to pin the welcome message and its buttons on ticket creation."
+
 These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot. 
 
 > **Note:** The used Permissions can change when the bot gets a new update or feature.
