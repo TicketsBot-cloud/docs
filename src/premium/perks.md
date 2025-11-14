@@ -7,14 +7,18 @@
 | Automatic Ticket Archives | X | X | X | X |
 | Forms | X | X | X | X |
 | Ticket Claiming | X | X | X | X |
+| Access Control | X | X | X | X |
+| Access to Autoclose | On Leave | On Leave | X | X |
 | Max Ticket Panels | 3 | 3 | Unlimited | Unlimited |
+| Panel Support Hours | 1 | 1 | Unlimited | Unlimited |
+| Message Branding Removal | - | Welcome Message | X | X |
 | Access to Statistics | - | X | X | X |
-| Message Footer Branding Removal | - | X | X | X |
-| Access to Autoclose | - | - | X | X |
+| Awaiting Response Category | - | - | X | X |
 | Exit Surveys | - | - | X | X |
 | Customise Embed Colour | - | - | X | X |
 | Live Message Updates on the Dashboard | - | - | X | X |
 | Send Messages Directly from the Dashboard | - | - | X | X |
+| Custom Tag Alias | - | - | X | X |
 | Customize Bot Name | - | - | - | X |
 | Customize Bot Avatar | - | - | - | X |
 | Customize Bot Status | - | - | - | X |
