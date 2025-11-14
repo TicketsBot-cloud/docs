@@ -1,9 +1,10 @@
 # Command List
 ***
 
-| General Commands | Description |  
-| -- | -- |  
+| General Commands | Description |
+| -- | -- |
 | /about | Information about the bot |
+| [/gdpr](./gdpr.md) (lang) | Request deletion or anonymization of your data under GDPR |
 | /help | Displays a list of commands |
 | /invite | Provides an invite link for the bot |
 | /vote | Gives a link to vote for free premium beneftis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
