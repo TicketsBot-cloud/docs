@@ -32,6 +32,8 @@ Below is a rough explanation of what each permission is used for:
 
 * `Use External Emojis` "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them."
 
+* `Pin Messages` "Allows the bot to pin the welcome message and its buttons on ticket creation."
+
 * `Mention @Everyone` "Allows the bot to mention everyone, here and all roles in a ticket."
 
 * `Manage Threads` "Allows the bot to create, rename, close, and delete threads."
@@ -40,12 +42,6 @@ Below is a rough explanation of what each permission is used for:
 
 * `Use Application Commands` "Allows the bot's slash commands to work."
 
-* `Manage Channels` "Allows the bot to create ticket channels and modify them."
-
-* `Manage Webhooks` "Allows the bot to create a webhook in the ticket channel used for sending messages from the Dashboard."
-
-* `Pin Messages` "Allows the bot to pin the welcome message and its buttons on ticket creation."
-
 These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot. 
 
-> **Note:** The used Permissions can change when the bot gets a new update or feature.
+> **Note:** The used Permissions can change when the bot gets a new update or feature. Please keep a lookout, for an announcement about changed permissions in our [support server](https://discord.gg/ticketsbot).
