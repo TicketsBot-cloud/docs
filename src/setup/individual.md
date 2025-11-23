@@ -1,4 +1,4 @@
-# Bot Configuration: Indiviual Commands
+# Bot Configuration: Individual Commands
 ***
 
 You can also tweak individual settings by using a single command. Note, not all settings are available via command, some are only accessible on the [dashboard](./dashboard.md), such as [ticket panels](./panels.md).

@@ -11,7 +11,7 @@ A simple example would be a forum! When a user opens a ticket in your Discord se
 
 Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.tickets.bot/setup/placeholders#bloxlink).
 
-Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration.
+Integrations do not necessarily need to fetch information about a user either!
 
 ## Background Setup
 Let's say we run a game, where users link their accounts to their Discord accounts. Users have usernames, scores and other metadata which we wish to display in the welcome message when a user opens a ticket.
