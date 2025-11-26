@@ -11,14 +11,14 @@
 
 | Ticket Commands | Description |
 | -- | -- |  
-| /add (user) | Add a user to an existing ticket |
+| /add (user_or_role) | Add a user or role to an existing ticket |
 | /claim | Assigns a single staff member to the current ticket |
 | /close (reason) | Closes the current ticket |
 | [/closerequest](../features/close-requests.md) (close_delay) (reason) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Sends a message asking the ticket opener to approve or deny closing of the ticket |
 | /jumptotop | Displays a button to click and will automatically scroll to the top of the ticket |
 | /on-call | Toggles whether the user of command will be added and pinged to all new thread mode tickets |
 | /open (subject) | Opens a new ticket |
-| /remove (user) | Removes a user from the current ticket |
+| /remove (user_or_role) | Removes a user or role from the current ticket |
 | /rename (new_ticket_name) | Renames the current ticket |
 | /reopen (ticket ID) | reopens a thread ticket that was previously closed |
 | /switchpanel (to_panel) | Switches the current ticket to another ticket panel - changing the channel category, support teams, etc |
