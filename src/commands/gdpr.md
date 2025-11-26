@@ -280,4 +280,4 @@ Learn more about GDPR and your data protection rights:
 
 ## Need Help?
 
-If you have questions about GDPR requests or need assistance with data protection matters, please open a support ticket in the [Tickets Support Server](https://discord.gg/VtV3rSk).
+If you have questions about GDPR requests or need assistance with data protection matters, please open a support ticket in the [Tickets Support Server](https://discord.gg/ticketsbot).
