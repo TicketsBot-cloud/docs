@@ -25,6 +25,8 @@ This is the "name" of the tag and what will be used in the command (i.e. if ID i
 ### Message Content
 This is how the bot will respond when the command is used.
 
+**Note:** Tags support [placeholders](../miscellaneous/placeholders.md) when used in ticket channels. All welcome message placeholders work in tags, allowing you to create dynamic responses with user information, ticket details, and more.
+
 ![Tag message example](../img/tags_message_example.webp)
 
 ## Use Embed
