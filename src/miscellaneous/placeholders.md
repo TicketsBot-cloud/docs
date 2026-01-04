@@ -51,6 +51,8 @@ These placeholders are available if the user has linked their Roblox account via
 | %id_padded% &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Display the unique ticket ID to 4 places &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 | %username% | Display the user's name |
 | %nickname% | Display the user's nickname |
+| %claimed% | Display whether the ticket is claimed or unclaimed |
+| %claimed_by% | Display the claimer's username |
 
 ## Escaping Placeholders
 To display a placeholder as literal text instead of having it replaced, use backslashes: `\%placeholder_name\%`
