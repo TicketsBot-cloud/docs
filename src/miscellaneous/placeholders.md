@@ -52,6 +52,7 @@ These placeholders are available if the user has linked their Roblox account via
 | %username% | Display the user's name |
 | %nickname% | Display the user's nickname |
 | %claimed% | Display whether the ticket is claimed or unclaimed |
+| %claim_indicator% | Display 🟢 if claimed or 🔴 if unclaimed |
 | %claimed_by% | Display the claimer's username |
 
 ## Escaping Placeholders
