@@ -189,7 +189,7 @@ Let's test it out!
 As you can see, the placeholders have successfully been fetched from the web server, and replaced with the provided values!
 
 ## Need Help?
-If you're still not sure about creating integrations, we can help you! You may find it helpful to read our next guide, on [how we created the cryptocurrency price integration](/integrations/creating-the-cryptocurrency-integration). If you're still stuck, feel free to ask us in our [Discord server](https://discord.gg/ticketsbot)!
+If you're still stuck, feel free to ask us in our [Discord server](https://discord.gg/ticketsbot)!
 
 ## Security
 We have put **significant** effort into making sure integrations are safe, by ensuring requests are always proxied, and not sent to where they are not supposed to be, including through additional penetration testing.
