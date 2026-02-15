@@ -52,12 +52,27 @@ Users can be requested to leave feedback when their ticket is closed.
 
 > **Note:** This is a premium feature. Learn more about premium [here](https://tickets.bot/premium).
 
-### Awaiting Response Category 
+### Awaiting Response Category
 Tickets awaiting a user's response can be moved to a different category.
 
 - _Learn more about Awaiting Response Category [here](../dashboard/settings/awaiting-response.md)._
 
 > **Note:** This is a premium feature. Learn more about premium [here](https://tickets.bot/premium).
+
+### Cooldown
+Set a per-user cooldown (in seconds) to prevent users from opening multiple tickets on the same panel in quick succession. When a user opens a ticket, they must wait for the cooldown period to elapse before they can open another ticket on this panel.
+
+- A value of `0` disables the cooldown (default).
+- Staff members (Support role and above) are exempt from cooldowns.
+- Cooldowns are tracked per user, per panel — different panels can have different cooldown durations.
+- Admins can reset all active cooldowns for a panel from the dashboard using the `Reset Cooldowns` button.
+
+### Support Hours
+Configure time-based restrictions on when tickets can be opened from this panel. Support hours are configured per day of the week with a start and end time in a timezone of your choice.
+
+- _Learn more about Support Hours [here](../features/support-hours.md)._
+
+> **Note:** Free servers can configure support hours on 1 panel. Premium servers have no limit. Learn more about premium [here](https://tickets.bot/premium).
 
 ## Panel Message
 ***

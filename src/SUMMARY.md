@@ -50,6 +50,7 @@
   - [Start Ticket from Message](./features/start-ticket-from-message.md)
   - [Close Requests](./features/close-requests.md)
   - [User Feedback](./features/feedback.md)
+  - [Support Hours](./features/support-hours.md)
 
 - [Miscellaneous](./miscellaneous/introduction.md)
   - [Official Tickets Links](./miscellaneous/official-links.md)
