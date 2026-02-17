@@ -67,6 +67,12 @@ Set a per-user cooldown (in seconds) to prevent users from opening multiple tick
 - Cooldowns are tracked per user, per panel — different panels can have different cooldown durations.
 - Admins can reset all active cooldowns for a panel from the dashboard using the `Reset Cooldowns` button.
 
+### Hide Close Button
+Toggle whether the `Close` button is shown in tickets opened from this panel. This overrides the server-wide default set in the Settings page.
+
+### Hide Close with Reason Button
+Toggle whether the `Close with Reason` button is shown in tickets opened from this panel. This overrides the server-wide default set in the Settings page.
+
 ### Support Hours
 Configure time-based restrictions on when tickets can be opened from this panel. Support hours are configured per day of the week with a start and end time in a timezone of your choice.
 

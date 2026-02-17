@@ -78,6 +78,16 @@ Toggle whether the `Claim` button is shown in each ticket.
 
 - _Learn more about Claiming [here](./claiming.md)._
 
+### Hide Close Button
+Toggle whether the `Close` button is shown in each ticket's welcome message. When enabled, the close button will be removed, though users and staff can still close tickets via the `/close` command.
+
+- _This setting acts as the server-wide default. It can be overridden on a per-panel basis in the panel's Ticket Properties._
+
+### Hide Close with Reason Button
+Toggle whether the `Close with Reason` button is shown in each ticket's welcome message. When enabled, the close with reason button will be removed, though users and staff can still close tickets with a reason via the `/close` command.
+
+- _This setting acts as the server-wide default. It can be overridden on a per-panel basis in the panel's Ticket Properties._
+
 ## /Open Command
 This section has settings when using the `/open` command to create a ticket.
 
