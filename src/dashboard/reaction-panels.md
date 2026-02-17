@@ -67,6 +67,11 @@ Set a per-user cooldown (in seconds) to prevent users from opening multiple tick
 - Cooldowns are tracked per user, per panel — different panels can have different cooldown durations.
 - Admins can reset all active cooldowns for a panel from the dashboard using the `Reset Cooldowns` button.
 
+### Hide Claim Button
+Toggle whether the `Claim` button is shown in tickets opened from this panel. This overrides the server-wide default set in the Settings page.
+
+- _Learn more about Claiming [here](../dashboard/settings/claiming.md)._
+
 ### Hide Close Button
 Toggle whether the `Close` button is shown in tickets opened from this panel. This overrides the server-wide default set in the Settings page.
 
