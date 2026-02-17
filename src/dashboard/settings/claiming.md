@@ -18,6 +18,16 @@ Alternatively, an admin could claim a ticket to keep the support team from seein
 - All staff members can see the ticket, and all staff members can reply
 - Only the claimer can see the ticket
 
-You can configure which methodology is used on the dashboard's settings tab:
+## Panel Switch Behavior
+When a claimed ticket is switched to a different panel using `/switchpanel`, the claimer may not have access to the new panel's support team. This setting controls what happens in that scenario:
+
+- **Auto Unclaim** (Default) - The ticket is automatically unclaimed when switched to a panel the claimer doesn't have access to
+- **Block Switch** - Prevents switching to a panel if the claimer doesn't have access to it. The ticket must be unclaimed first before switching
+- **Remove On Unclaim** - Allows the switch, but removes the claimer's access to the ticket when they unclaim it
+- **Keep Access** - Allows the switch and keeps the claimer's access to the ticket even after unclaiming
+
+> **Note:** This setting only applies when the claimer doesn't have access to the new panel. If the claimer has access to both panels, the ticket remains claimed and no special handling is needed.
+
+You can configure these settings on the dashboard's settings tab:
 
 ![Claim Settings](../../img/settings_claim.webp)
