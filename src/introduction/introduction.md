@@ -12,7 +12,7 @@ Updates to the docs are made frequently.
 
 <div class="warning">
 
-**If you find any issues in the Docs like typo's and outdated information then please tell us in our [support server](https://discord.gg/ticketsbot).**
+**If you find any issues in the Docs like typos and outdated information then please tell us in our [support server](https://discord.gg/ticketsbot).**
 </div>
 
 Get started setting up the bot [here](../setup/introduction.md)
