@@ -12,7 +12,8 @@ Upon pressing `Continue`, you'll be presented with a list of permissions Tickets
 
 Click `Authorize` to proceed.
 
-![Authorize permissions](../img/invite-2.webp)
+![Permissions 1](../img/invite-1.5.webp)
+![Authorize permissions 2](../img/invite-2.webp)
 
 Discord will then present you with a screen stating that you've authorised the bot: it's now in your server! 
 

@@ -7,7 +7,7 @@
 | [/gdpr](./gdpr.md) (lang) | Request deletion or anonymization of your data under GDPR |
 | /help | Displays a list of commands |
 | /invite | Provides an invite link for the bot |
-| /vote | Gives a link to vote for free premium beneftis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| /vote | Gives a link to vote for free premium benefits &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 
 | Ticket Commands | Description |
 | -- | -- |  
@@ -28,7 +28,7 @@
 
 | Setting Commands | Description |
 | -- | -- |  
-| [/addadmin](./add-admin-support.md) (user_or_role) | Grants a user or role admin priveledges of the bot |
+| [/addadmin](./add-admin-support.md) (user_or_role) | Grants a user or role admin privileges of the bot |
 | [/addsupport](./add-admin-support.md) (user_or_role) | Adds a user or role as a support representative |
 | /autoclose configure | Edit autoclose related settings |
 | /autoclose exclude | Excludes the current ticket from being automatically closed |
@@ -36,8 +36,8 @@
 | /language (language) | Changes the language the bot messages are displayed in |
 | /panel | Provides a link to create a reaction panel for users to open tickets |
 | /premium | Activates premium benefits after purchasing (choose patreon on select menu) |
-| /removeadmin (user_or_role) | Revokes a user's or role's admin priveledges |
-| /removesupport (user_or_role) | Revokes a user's or role's support representative priviledges |
+| /removeadmin (user_or_role) | Revokes a user's or role's admin privileges |
+| /removesupport (user_or_role) | Revokes a user's or role's support representative privileges |
 | /setup auto | Bot will make a very basic configuration (no reaction panels - you'll still want to customize on dashboard) |
 | /setup limit | Change the quantity of tickets a single user can have open at the same time |
 | /setup transcripts | Change the transcripts channel |
