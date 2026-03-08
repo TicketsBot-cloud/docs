@@ -18,6 +18,8 @@ Below is a rough explanation of what each permission is used for:
 
 * `Send Messages` "Allows the bot to send messages in channels."
 
+* `Send TTS Messages` "Allows the bot to assign this permission to Ticket openers and Staff members."
+
 * `Send Messages in Threads` "Allows the bot to send messages in threads."
 
 * `Create Public Threads` "Allows the bot to create public threads."
@@ -26,7 +28,7 @@ Below is a rough explanation of what each permission is used for:
 
 * `Embed Links` "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message."
 
-* `Attach Files` "Allows the bot to assign the attach files permission to the ticket opener."
+* `Attach Files` "Allows the bot to assign this permission to Ticket openers and Staff members."
 
 * `Add Reactions` "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons."
 
@@ -41,6 +43,10 @@ Below is a rough explanation of what each permission is used for:
 * `Read Message History` "Allows the bot to read all messages in a channel."
 
 * `Use Application Commands` "Allows the bot's slash commands to work."
+
+* `Use External Stickers` "Allows the bot to assign this permission to Ticket openers and Staff members."
+
+* `Send Voice Messages` "Allows the bot to assign this permission to Ticket openers and Staff members."
 
 These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot. 
 
