@@ -18,7 +18,7 @@ Below is a rough explanation of what each permission is used for:
 
 * `Send Messages` "Allows the bot to send messages in channels."
 
-* `Send TTS Messages` "Allows the bot to assign this permission to Ticket openers and Staff members."
+* `Send TTS Messages` "Allows the bot to assign this permission to ticket openers and staff members."
 
 * `Send Messages in Threads` "Allows the bot to send messages in threads."
 
@@ -28,7 +28,7 @@ Below is a rough explanation of what each permission is used for:
 
 * `Embed Links` "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message."
 
-* `Attach Files` "Allows the bot to assign this permission to Ticket openers and Staff members."
+* `Attach Files` "Allows the bot to assign this permission to Ticket openers and staff members."
 
 * `Add Reactions` "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons."
 
@@ -44,10 +44,10 @@ Below is a rough explanation of what each permission is used for:
 
 * `Use Application Commands` "Allows the bot's slash commands to work."
 
-* `Use External Stickers` "Allows the bot to assign this permission to Ticket openers and Staff members."
+* `Use External Stickers` "Allows the bot to assign this permission to ticket openers and staff members."
 
-* `Send Voice Messages` "Allows the bot to assign this permission to Ticket openers and Staff members."
+* `Send Voice Messages` "Allows the bot to assign this permission to ticket openers and staff members."
 
-These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot. 
+These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot.
 
-> **Note:** The used Permissions can change when the bot gets a new update or feature. Please keep a lookout, for an announcement about changed permissions in our [support server](https://discord.gg/ticketsbot).
+> **Note:** The used permissions can change when the bot gets a new update or feature. Please keep a lookout, for an announcement about changed permissions in our [support server](https://discord.gg/ticketsbot).
