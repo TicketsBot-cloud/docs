@@ -1,12 +1,11 @@
-# All Bot Permissions explained
+# All Bot Permissions Explained
+
 ***
-For the Bot to work fully it needs many permissions.
+For the bot to work fully it needs many permissions.
 
 Either you manually give it each needed permissions or you give it the `Administrator` permission which will just make it "work".  For an explanation of how to adjust permissions, [check the Discord help article](https://support.discord.com/hc/en-us/articles/206029707-How-do-I-set-up-Permissions).
 
-
 Below is a rough explanation of what each permission is used for:
-
 
 * `View Channels` "Allows the bot to view the content of a channel."
 
@@ -28,11 +27,11 @@ Below is a rough explanation of what each permission is used for:
 
 * `Embed Links` "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message."
 
-* `Attach Files` "Allows the bot to assign this permission to Ticket openers and staff members."
+* `Attach Files` "Allows the bot to assign this permission to ticket openers and staff members."
 
 * `Add Reactions` "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons."
 
-* `Use External Emojis` "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them."
+* `Use External Emojis` "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. The bot must still be in the other server to use them."
 
 * `Pin Messages` "Allows the bot to pin the welcome message and its buttons on ticket creation."
 
@@ -48,6 +47,6 @@ Below is a rough explanation of what each permission is used for:
 
 * `Send Voice Messages` "Allows the bot to assign this permission to ticket openers and staff members."
 
-These permissions are mandatory so that the Bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot.
+These permissions are mandatory so that the bot can work. Any other permission can be denied for the bot to use since those aren't used by the bot.
 
 > **Note:** The used permissions can change when the bot gets a new update or feature. Please keep a lookout, for an announcement about changed permissions in our [support server](https://discord.gg/ticketsbot).
