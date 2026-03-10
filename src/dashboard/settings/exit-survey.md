@@ -8,6 +8,8 @@ Users can be requested to leave feedback when their ticket is closed.
 2. Create a [form](../../features/forms.md), as you normally would, but enter your feedback questions
 3. Edit your [panels](../../setup/panels.md) and set the `Exit Survey Form` input to this new form
 
+> **Note:** Only the `Text Input` Form Field type is currently supported for Exit Surveys!
+
 The next time a user rates a ticket, they will also be prompted to fill out the feedback form.
 
 ## View Exit Survey Responses
