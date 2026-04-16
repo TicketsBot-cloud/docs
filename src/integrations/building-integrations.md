@@ -9,8 +9,6 @@ If you run a service that incorporates [Discord OAuth](https://discord.com/devel
 
 A simple example would be a forum! When a user opens a ticket in your Discord server, you could include the user's forum username automatically.
 
-Another example is our built-in Bloxlink integration, which allows you to include the Roblox usernames, profile URLs and more in tickets. The Bloxlink integration is automatically enabled in all servers. You can view the welcome message placeholders available through it [here](https://docs.tickets.bot/setup/placeholders#bloxlink).
-
 Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration.
 
 ## Background Setup
