@@ -49,16 +49,7 @@ Placeholders marked with a * are premium features. Learn more about premium [her
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
 
 #### Bloxlink
-These placeholders are available if the user has linked their Roblox account via [Bloxlink](https://blox.link)
-
-|Placeholder|Description |
-|--|--|
-| %roblox_username% | The user's Roblox username |
-| %roblox_id% | The user's numeric Roblox ID |
-| %roblox_display_name% | The user's Roblox display name |
-| %roblox_profile_url% | The full clickable URL to the user's Roblox profile |
-| %roblox_account_age% | How long ago the user's Roblox account was created |
-| %roblox_account_created% | The date on which the user's Roblox account was created |
+> ⚠️ **Bloxlink placeholders are currently unavailable.** Bloxlink has disabled their Global API, which these placeholders relied upon. We are investigating alternative solutions to restore Roblox placeholder support, but are unable to provide an estimated timeline.
 
 ## Custom Naming Scheme Placeholders:
 |Placeholder|Description|
