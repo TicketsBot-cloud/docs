@@ -8,3 +8,4 @@ description = "Official Documentation of the Tickets V2 Discord Bot"
 
 [output.html]
 default-theme = "ayu"
+additional-css = ["custom.css"]
