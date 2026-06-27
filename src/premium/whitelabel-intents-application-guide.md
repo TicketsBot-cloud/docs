@@ -119,6 +119,7 @@ Users can request deletion of their data through multiple channels:
 
 1. The /gdpr command: Users can DM the bot and run /gdpr to access an interactive menu for deleting transcripts or anonymising their messages. Server owners can delete all transcripts from their servers, and individual users can anonymise their messages in any transcript they participated in. Requests are processed within 30 days.
 2. The Tickets Bot support server: Users can open a support ticket at https://discord.gg/ticketsbot to request data deletion.
+3. They can email support@bhcloudlabs.com with the deletion request.
 
 Full documentation on the GDPR process is available at https://docs.tickets.bot/commands/gdpr
 ```
