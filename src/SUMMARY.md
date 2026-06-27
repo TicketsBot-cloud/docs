@@ -42,6 +42,7 @@
 - [Premium](./premium/introduction.md)
   - [Premium and Whitelabel Perks](./premium/perks.md)
   - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)
+  - [Whitelabel Intents](./premium/whitelabel-intents-application-guide.md)
 
 - [Features](./features/introduction.md)
   - [Thread Mode](./features/thread-mode.md)
