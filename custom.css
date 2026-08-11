@@ -1,0 +1,22 @@
+pre, code {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+pre {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+}
+
+pre > .buttons {
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+/* Hover-only copy button never appears on touch devices; keep it visible there. */
+@media (hover: none) {
+    pre > .buttons {
+        visibility: visible;
+        opacity: 1;
+    }
+}
