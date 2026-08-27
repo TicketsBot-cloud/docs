@@ -1,4 +1,5 @@
 {
+  "name": "Tickets Documentation",
   "devDependencies": {
     "@mdit/plugin-footnote": "^1.1.0",
     "vitepress": "^2.0.0-alpha.15"
