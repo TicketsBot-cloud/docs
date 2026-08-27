@@ -1,1 +1,0 @@
-../dashboard/reaction-panels.md

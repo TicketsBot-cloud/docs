@@ -1,1 +1,0 @@
-../../features/start-ticket-from-message.md

@@ -2,9 +2,9 @@
 <!-- Provide a brief description of the changes in this PR -->
 
 ## Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Breaking change
+- [ ] Update
+- [ ] Addition
+- [ ] Translation
 
 ## Testing
 <!-- Describe the tests you ran to verify your changes -->
@@ -15,4 +15,6 @@
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] I have added my new file to all language directories
+- [ ] I have replaced the old file in all language directories and not just the english language directory
+- [ ] I have reviewed my translation for langauge mistakes
