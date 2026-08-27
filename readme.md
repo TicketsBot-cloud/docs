@@ -23,13 +23,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/TicketsBot-cloud/docs">
-    <img src="/src/img/tickets_docs_readme_logo.webp" alt="Logo" width="80" height="80">
+    <img src="/docs/src/img/readme/tickets_docs_readme_logo.webp" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Tickets v2 Documentation</h3>
+<h3 align="center">Tickets Documentation</h3>
 
   <p align="center">
-    All documentation for the Discord bot "Tickets v2"
+    All documentation for the Discord bot "Tickets"
     <br />
     <a href="https://docs.tickets.bot/"><strong>Explore the docs »</strong></a>
     <br />
@@ -71,9 +71,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Tickets Screen Shot](/src/img/tickets_docs_readme_intro.webp)
+![Tickets Screen Shot](/docs/src/img/readme/tickets_docs_readme_intro.webp)
 
-User-facing documentation for [Tickets v2](https://tickets.bot). Tickets is a simple, customisable, and powerful Discord ticket system bot complete with a web UI.
+User-facing documentation for [Tickets](https://tickets.bot). Tickets is a simple, customisable, and powerful Discord ticket system bot complete with a web UI.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,13 +96,15 @@ To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
-section coming soon
+[Node.JS](https://nodejs.org/) v20 or higher is installed
+
 
 ### Installation
 
-SECTION COMING SOON
+1. Install dependencies by running: `npm i`
 
-to preview changes on `http://localhost:3000/` run `mdbook serve`
+2. Run: `npm run dev` or `npx vitepress dev docs` to get a local instance running which will allow you to preview your changes in a live updating preview on `http://localhost:5173/`.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +113,7 @@ to preview changes on `http://localhost:3000/` run `mdbook serve`
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![Tickets Docs Screen Shot](/src/img/tickets_docs_readme_usage.webp)
+![Tickets Docs Screen Shot](/docs/src/img/readme/tickets_docs_readme_usage.webp)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,9 +130,10 @@ Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Make your Changes. Copy the changed file(s) and replace the original/add it in the translation directories.
+4. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the Branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
