@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Meet the Team
 ---
 <script setup>
 import { ref, onMounted } from 'vue'

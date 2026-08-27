@@ -17,4 +17,4 @@
 - [ ] My changes generate no new warnings
 - [ ] I have added my new file to all language directories
 - [ ] I have replaced the old file in all language directories and not just the english language directory
-- [ ] I have reviewed my translation for langauge mistakes
+- [ ] I have reviewed my translation for language mistakes

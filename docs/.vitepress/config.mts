@@ -3,7 +3,8 @@ import { footnote } from "@mdit/plugin-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Tickets Docs",
+  title: "Tickets Documentation",
+  titleTemplate: ":title | Tickets Documentation",
   description: "Official Documentation of the Tickets Discord Bot",
   srcDir: "./src",
   rewrites: {
@@ -462,13 +463,6 @@ export default defineConfig({
     [
       "meta",
       {
-        content: "Tickets | Documentation",
-        property: "og:title",
-      },
-    ],
-    [
-      "meta",
-      {
         content: "Official Documentation of the Tickets Discord bot",
         property: "og:description",
       },
@@ -507,5 +501,10 @@ export default defineConfig({
     server: {
       allowedHosts: [".tickets.bot"],
     },
+  },
+  transformHead({ title }) {
+    return [
+      ["meta", { property: "og:title", content: title }],
+    ];
   },
 });
