@@ -72,4 +72,6 @@ Results are paginated. Use the page controls at the bottom of the table to navig
 
 ## Who Can Access Transcripts
 
-Any staff member with at least Support-level permissions on the server can view the Transcripts page and open individual transcripts. Creating, deleting, and managing labels requires Admin-level permissions.
+Any staff member with at least Support-level permissions on the server can view the Transcripts page and open individual transcripts of tickets they had access to at the time of closure. Creating, deleting, and managing labels requires Admin-level permissions. 
+
+Additionally the ticket opener will always have access to view transcripts of their own tickets and receive a link to it on ticket closure via dm from the bot. This behaviour can't be disabled.
