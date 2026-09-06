@@ -56,6 +56,14 @@ Controls how the panel embed looks in Discord and which channel it is posted to.
 
 ![Panel appearance](../../img/dashboard/panels/panel-appearance.webp)
 
+### Classic vs Components v2
+
+By default, the panel message uses the classic embed described below. You can instead switch it to **Components v2**, a block-based builder that replaces the fixed embed fields with a free-form set of blocks you assemble yourself. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
+
+:::tip Premium Feature
+Components v2 requires [Premium](https://tickets.bot/premium). Free servers see the option locked with an upgrade prompt and keep using the classic embed builder.
+:::
+
 ### Panel Title
 
 The bold text at the top of the embed. Default: "Open a ticket".
@@ -165,6 +173,14 @@ The welcome message is the embed sent to the ticket channel as soon as the ticke
 ![Welcome message](../../img/dashboard/panels/welcome-message.webp)
 
 Previously, the welcome message was set globally on the Settings page. It is now configured per panel.
+
+### Classic vs Components v2
+
+The welcome message can also be switched from the classic embed to **Components v2**, the same block-based builder available for the panel message. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
+
+:::tip Premium Feature
+Components v2 requires [Premium](https://tickets.bot/premium). Free servers see the option locked with an upgrade prompt and keep using the classic embed builder.
+:::
 
 ### Title
 

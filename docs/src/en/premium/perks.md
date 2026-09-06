@@ -21,6 +21,7 @@ Premium features are configured in different places across the dashboard. Colour
 | Awaiting response category | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
 | Exit surveys | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
 | Customise embed colour | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
+| Components v2 message builder | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
 | Live message updates on the web dashboard | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
 | Send messages directly from the web dashboard | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |
 | Custom tag alias | - | - | <Icon icon="fa-solid fa-check" /> | <Icon icon="fa-solid fa-check" /> |

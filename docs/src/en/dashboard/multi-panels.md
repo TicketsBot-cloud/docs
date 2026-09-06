@@ -75,6 +75,14 @@ Controls the appearance of the multi-panel embed itself. A live preview is shown
 
 ![Multi-panel settings](../../img/dashboard/multipanels/multipanel-settings.webp)
 
+### Classic vs Components v2
+
+The multi-panel message can also be switched from the classic embed to **Components v2**, a block-based builder that replaces the fixed embed fields with a free-form set of blocks you assemble yourself. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
+
+:::tip Premium Feature
+Components v2 requires [Premium](https://tickets.bot/premium). Free servers see the option locked with an upgrade prompt and keep using the classic embed builder.
+:::
+
 ### Title
 
 The bold text at the top of the embed.
