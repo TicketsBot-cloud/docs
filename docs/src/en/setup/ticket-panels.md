@@ -23,7 +23,7 @@ At a minimum, configure these four fields to get a working panel:
 4. **Support Team** - which staff team will handle tickets opened from this panel
 
 :::tip Create a Support Team First
-If you have not created a support team yet, visit the [Staff Teams](/dashboard/staff-teams) page first.
+If you have not created a support team yet, visit the [Staff Teams](/dashboard/staff-teams) page first, or use the [Setup Wizard](./onboarding) which guides you through teams, forms, and panels in order.
 :::
 
 ### Optional Fields

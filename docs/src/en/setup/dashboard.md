@@ -1,6 +1,6 @@
 # Bot Configuration: Web Dashboard
 
-The web dashboard is where you configure Tickets for your Discord server. This page walks you through logging in and selecting your server, then points you to the full dashboard guide.
+The web dashboard is where you configure Tickets for your Discord server. This page walks you through logging in and selecting your server, then points you to the setup wizard and the full dashboard guide.
 
 ## Logging In
 
@@ -18,6 +18,12 @@ If your server does not appear, check the following:
 3. Try clicking **Refresh list** at the top of the server list, or log out and back in
 
 ![Servers](../../img/dashboard/introduction/servers.webp)
+
+## First-Time Setup
+
+If this is the first time you are configuring Tickets for a server, a setup banner will appear inviting you to the **Setup Wizard**. The wizard guides you through creating teams, forms, and your first ticket panel in a few minutes.
+
+See [Setup Wizard](./onboarding) for a full walkthrough.
 
 ## Exploring the Dashboard
 
