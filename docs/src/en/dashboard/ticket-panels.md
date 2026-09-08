@@ -260,7 +260,13 @@ A per-user cooldown preventing users from opening tickets on this panel in rapid
 
 ### Max Open Tickets Per User
 
-The maximum number of tickets a single user can have open at the same time on this panel. Set to 0 for no limit (default). Maximum value: 10. Staff members are exempt from this limit.
+The maximum number of tickets a single user can have open at the same time on this panel. Only tickets opened from this panel count towards it. Set to 0 (default) for no limit on this panel. Maximum value: 10. Staff members are exempt from this limit.
+
+#### How the two limits combine
+
+This limit and the server-wide [Simultaneous Ticket Limit](/dashboard/settings/settings#simultaneous-ticket-limit) are independent and both apply, so a user is blocked as soon as either is reached. A limit of 0 switches that check off; a user is only unlimited when both are 0.
+
+With a server-wide limit of 6 and this panel set to 1, a user can have at most 6 tickets open across the server, and at most 1 of those from this panel.
 
 ## Closing and Claiming
 
