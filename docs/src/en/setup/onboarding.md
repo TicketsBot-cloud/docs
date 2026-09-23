@@ -51,11 +51,12 @@ Forms collect information from users when they open a ticket. For example, you m
 
 1. Enter a **form title** (e.g. "Support Request") and click **Create**.
 2. Click **+ Add Field** to add questions to the form.
-3. For each field, configure:
+3. For each field, depending on its type, configure:
    - **Label** - the question text shown to the user.
-   - **Type** - Text Input, String Select, User Select, Role Select, Mentionable Select, Channel Select, Radio Group, or Checkbox Group.
+   - **Type** - Text Input, String Select, User Select, Role Select, Mentionable Select, Channel Select, Radio Group, Checkbox Group, or Text Display.
    - **Style** - for text inputs, choose between single-line or multi-line.
    - **Required** - whether the user must fill in this field.
+   - **Content** - for text displays, enter the text shown in the form.
    - **Length/Items Range** - minimum and maximum character count (for text) or selection count (for selects).
    - **Options** - for select, radio, and checkbox types, add the choices the user can pick from.
 
