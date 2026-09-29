@@ -308,6 +308,14 @@ Select a form to present to users when their ticket is closed, allowing them to 
 This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
 :::
 
+#### Close Reasons
+
+A list of reasons to choose from when closing a ticket opened from this panel, sending a close request, or editing a close reason. In `/close` and `/closerequest`, they are suggested as you type. You can add up to 25 reasons, each up to 100 characters.
+
+#### Allow Custom Close Reasons
+
+Toggle whether a custom close reason can also be entered. When disabled, any reason given must come from the list above, but tickets can still be closed without a reason. This option is only available when the panel has close reasons.
+
 ### Claiming
 
 [Learn more about claiming tickets](./settings/claiming-tickets).
