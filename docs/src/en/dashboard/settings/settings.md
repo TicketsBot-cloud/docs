@@ -14,7 +14,6 @@ Several settings have moved to the per-panel editor. Each panel now controls its
 
 | Old Settings location | New location (panel editor section) |
 |---|---|
-| Per User Simultaneous Ticket Limit | [Ticket Behaviour](/dashboard/ticket-panels#ticket-behaviour) (Max Open Tickets Per User) |
 | Allow Users to Close Tickets | [Closing and Claiming](/dashboard/ticket-panels#closing-and-claiming) |
 | Ticket Close Confirmation | [Closing and Claiming](/dashboard/ticket-panels#closing-and-claiming) |
 | Enable User Feedback | [Closing and Claiming](/dashboard/ticket-panels#closing-and-claiming) |
@@ -54,6 +53,12 @@ Controls what happens when a ticket is switched to a different panel and the cur
 | Keep Access | Allow the switch and keep the claimer's access even after unclaiming |
 
 Click the info icon next to the label for a detailed explanation of each option.
+
+### Simultaneous Ticket Limit
+
+The maximum number of tickets a single user can have open across the whole server at once (0-10, default 10). Set it to 0 for no server-wide limit. Staff members are exempt.
+
+It counts every open ticket, whichever panel it came from, and applies alongside each panel's own **Max Open Tickets Per User** rather than replacing it - see [how the two limits combine](/dashboard/ticket-panels#how-the-two-limits-combine).
 
 ### Anonymise Dashboard Responses
 

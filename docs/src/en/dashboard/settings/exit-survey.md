@@ -19,3 +19,7 @@ The next time a user rates a ticket on that panel, they will also be prompted to
 ## Viewing Responses
 
 When a user submits a survey response, the archive message in your transcript channel is updated with a button to view their answers.
+
+:::info Forms Without Questions
+If the survey form only contains [Text Display](/dashboard/forms#text-display) fields, the user is still prompted to complete the survey. No responses are stored, so no button is added to the archive message.
+:::

@@ -105,6 +105,10 @@ export default defineConfig({
             link: "/setup/invite",
           },
           {
+            text: "Setup Wizard",
+            link: "/setup/onboarding",
+          },
+          {
             text: "Language Customisation",
             link: "/setup/language-customisation",
           },

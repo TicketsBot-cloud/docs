@@ -125,7 +125,7 @@ When the HTTP method is **POST**, Tickets sends a JSON body like:
 | `ticket_id` | Numeric ticket ID |
 | `ticket_channel_id` | String snowflake |
 | `is_new_ticket` | Always `true` today (integrations run only when a ticket is opened) |
-| `form_data` | Only for **non-public** integrations. Keys are form **question labels**, not internal field IDs |
+| `form_data` | Only for **non-public** integrations. Keys are form **question labels**, not internal field IDs. [Text Display](/dashboard/forms#text-display) fields are not included |
 
 Requests are sent through the [secure-proxy](https://github.com/TicketsBot-cloud/tickets.rs/tree/master/secure-proxy), not directly from the bot.
 
