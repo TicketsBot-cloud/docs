@@ -150,7 +150,7 @@ Controls what happens to the mention message after it is sent:
 
 ### Form
 
-Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. Select "None" to open tickets without a form.
+Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. Their answers are sent in a separate embed below the welcome message. Select "None" to open tickets without a form.
 
 [Learn more about forms](./forms).
 

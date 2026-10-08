@@ -41,7 +41,7 @@ Each form supports a maximum of **5 fields**. Once you reach five, the "New Fiel
 
 ### Field Settings
 
-Every field has the following settings:
+Each field has the following settings, depending on its type:
 
 | Setting | Description |
 | ------- | ----------- |
@@ -51,6 +51,7 @@ Every field has the following settings:
 | **Type** | The kind of input. See [Field Types](#field-types) below. |
 | **Style** | For Text Input fields only: Single-line or Multi-line. |
 | **Required** | Whether the user must fill in this field before submitting. |
+| **Content** | For Text Display fields only: the text shown in the form. Required, maximum 4,000 characters. |
 | **Length Range / Items Range** | Minimum and maximum character count (for text) or selection count (for select types). |
 
 Fields can be reordered using the up and down arrow buttons, and deleted using the bin button.
@@ -67,6 +68,7 @@ Fields can be reordered using the up and down arrow buttons, and deleted using t
 | **Channel Select** | A dropdown that lists server channels for the user to select. |
 | **Radio Group** | A set of radio buttons where the user picks exactly one option (2 to 10 options). |
 | **Checkbox Group** | A set of checkboxes where the user can select multiple options (1 to 10 options). |
+| **Text Display** | Text shown in the form, such as instructions or rules. See [Text Display](#text-display) below. |
 
 ### Options for Select, Radio, and Checkbox Types
 
@@ -86,9 +88,23 @@ Radio Group requires at least 2 options, since a single radio button would serve
 
 String Select fields can fetch their options dynamically from an external API instead of using a fixed list. Toggle **API Config** next to the Required toggle to reveal the API configuration. See the [API-based form inputs](/features/api-form-inputs) guide for full setup instructions.
 
+### Text Display
+
+Text Display fields let you add information above, between, or below the questions in a form. They only have the **Type** and **Content** settings, and they are not included in the user's answers.
+
+A live preview is shown below the **Content** field. The Text Display fields in a form are limited to 4,000 characters in total.
+
+:::tip Formatting
+You can use [Discord message formatting](https://discord.com/developers/docs/reference#message-formatting) in the content, including bold, italic, lists, and links.
+:::
+
+:::info Forms Without Questions
+If a form only contains Text Display fields, it is still shown when the user clicks the panel button. The ticket is created once they click **Submit**, and no answers are sent below the welcome message.
+:::
+
 ## Saving Changes
 
-After adding or editing fields, click **Save Changes** at the bottom of the page. The button is disabled if any field has validation errors (missing label, blank options, duplicate values, or an incomplete or invalid API configuration).
+After adding or editing fields, click **Save Changes** at the bottom of the page. The button is disabled if any field has validation errors (missing label or content, blank options, duplicate values, or an incomplete or invalid API configuration).
 
 ## Cloning a Form
 
