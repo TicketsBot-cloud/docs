@@ -311,6 +311,10 @@ export default defineConfig({
                 link: "/dashboard/settings/start-ticket-from-message",
               },
               {
+                text: "Components v2 Builder",
+                link: "/dashboard/settings/components-v2-builder",
+              },
+              {
                 text: "Placeholders",
                 link: "/miscellaneous/placeholders",
               },
@@ -369,6 +373,10 @@ export default defineConfig({
           {
             text: "Close Requests",
             link: "/features/close-requests",
+          },
+          {
+            text: "Components v2 Builder",
+            link: "/dashboard/settings/components-v2-builder",
           },
           {
             text: "Exit Survey",
