@@ -73,7 +73,7 @@ Without this intent, the bot cannot resolve member roles or permissions, which a
 ```txt
 Full documentation with screenshots demonstrating these features is available at:
 
-- Ticket panels and role-based access: https://docs.tickets.bot/setup/ticket-panels
+- Ticket panels and role-based access: https://docs.tickets.bot/dashboard/ticket-panels#access-control
 - Staff team management: https://docs.tickets.bot/dashboard/staff-teams
 - Ticket transcripts: https://docs.tickets.bot/dashboard/transcripts
 - General setup and configuration: https://docs.tickets.bot/setup/configuration
