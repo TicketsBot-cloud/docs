@@ -310,7 +310,7 @@ This is a premium feature. [Learn more about premium](https://tickets.bot/premiu
 
 #### Close Reasons
 
-A list of reasons to choose from when closing a ticket opened from this panel, sending a close request, or editing a close reason. In `/close` and `/closerequest`, they are suggested as you type. You can add up to 25 reasons, each up to 100 characters.
+A list of reasons to choose from when closing a ticket opened from this panel, sending a close request, or editing a close reason. In `/close` and `/closerequest`, they are suggested as you type. You can add up to 25 reasons, each up to 100 characters. Click **Import** to copy close reasons from another panel.
 
 #### Allow Custom Close Reasons
 
