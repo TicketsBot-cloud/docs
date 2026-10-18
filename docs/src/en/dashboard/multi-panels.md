@@ -24,6 +24,10 @@ To resend a multi-panel (for example, if the message was deleted in Discord), cl
 
 Controls which panels are included and how they are presented.
 
+### Name
+
+An optional name for the multi-panel, up to 100 characters. It is only used to identify the multi-panel in the dashboard and is not shown in Discord.
+
 ### Panel Channel
 
 The Discord text channel where the bot sends the multi-panel embed. This should be a channel accessible to all members.
@@ -80,8 +84,10 @@ Controls the appearance of the multi-panel embed itself. A live preview is shown
 The multi-panel message can also be switched from the classic embed to **Components v2**, a block-based builder that replaces the fixed embed fields with a free-form set of blocks you assemble yourself. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
 
 :::tip Premium Feature
-Components v2 requires [Premium](https://tickets.bot/premium). Free servers see the option locked with an upgrade prompt and keep using the classic embed builder.
+Saving in Components v2 mode needs paid [Premium](https://tickets.bot/premium) or Whitelabel. Voting premium does not include it. If paid premium ends, messages already posted keep working, and you can still switch to Classic and save without losing your Components v2 layout. [Learn more](./settings/components-v2-builder#if-your-paid-premium-ends).
 :::
+
+In a Components v2 multi-panel, you choose where each selected panel appears. A Button Row can hold ticket panel buttons as well as link buttons, a Section's button accessory can be a ticket panel, and a Panel Select block (the dropdown) can be placed anywhere in the layout. Any selected panels you do not place are added automatically at the end, as buttons or as the dropdown, depending on whether **Use Dropdown Menu** is enabled. The dropdown uses the placeholder text set in Dropdown Placeholder Text. See [Placing Panels in a Multi-Panel](./settings/components-v2-builder#placing-panels-in-a-multi-panel).
 
 ### Title
 
