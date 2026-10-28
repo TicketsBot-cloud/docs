@@ -11,6 +11,7 @@ The core capabilities of the ticket system, beyond opening and closing tickets. 
 | [Awaiting User Response](/dashboard/settings/awaiting-user-response) | Moving a channel-mode ticket to a separate Discord category while it waits on the user |
 | [Claiming Tickets](/dashboard/settings/claiming-tickets) | Letting one staff member take ownership of a ticket so replies stay focused, in channel mode |
 | [Close Requests](/features/close-requests) | Asking the ticket opener to confirm their issue is resolved, with Accept and Deny buttons |
+| [Components v2 Builder](/dashboard/settings/components-v2-builder) | Building panel, welcome, and multi-panel messages from blocks instead of the classic embed |
 | [Exit Survey](/dashboard/settings/exit-survey) | Presenting a form after closing to collect written feedback alongside the star rating |
 | [Forms](/dashboard/forms) | Collecting information from users with a modal before the ticket channel is created |
 | [API-Based Form Inputs](/features/api-form-inputs) | Populating a String Select form field from your own API so options are per-user or real-time |

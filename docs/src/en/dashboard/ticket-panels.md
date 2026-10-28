@@ -48,7 +48,15 @@ If you have published any panels, tags, or forms to the gallery, a **Gallery Sub
 
 ## Panel Editor
 
-The panel editor is used for both creating and editing panels. It is organised into the following collapsible sections, described in order below.
+The panel editor is used for both creating and editing panels. It starts with the **Panel Name** and **Panel Title** fields, followed by the collapsible sections described in order below.
+
+### Panel Name
+
+An optional label (up to 100 characters) used to identify the panel in the dashboard, for example in the panels list and when choosing panels for a multi-panel. It is not shown in Discord. If you leave it blank, the dashboard shows the panel title instead.
+
+### Panel Title
+
+The bold text at the top of the embed. The title is also used in the `/open` command, the ticket channel topic and the notification posted when a ticket thread is opened, even if the panel message uses Components v2. Default: "Open a ticket".
 
 ## Panel Appearance
 
@@ -56,23 +64,15 @@ Controls how the panel embed looks in Discord and which channel it is posted to.
 
 ![Panel appearance](../../img/dashboard/panels/panel-appearance.webp)
 
-### Panel Name
+### Message Format
 
-An optional label (up to 100 characters) used to identify the panel in the dashboard, for example in the panels list and when choosing panels for a multi-panel. It is not shown in Discord. If you leave it blank, the dashboard shows the panel title instead.
+Choose **Classic** to use the embed fields below, or **Components v2** to build the panel message from blocks.
 
-### Classic vs Components v2
-
-By default, the panel message uses the classic embed described below. You can instead switch it to **Components v2**, a block-based builder that replaces the fixed embed fields with a free-form set of blocks you assemble yourself. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
+[Learn more about Components v2](./settings/components-v2-builder).
 
 :::tip Premium Feature
-Saving in Components v2 mode needs paid [Premium](https://tickets.bot/premium) or Whitelabel. Voting premium does not include it. If paid premium ends, messages already posted keep working, and you can still switch to Classic and save without losing your Components v2 layout. [Learn more](./settings/components-v2-builder#if-your-paid-premium-ends).
+This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
 :::
-
-### Panel Title
-
-The bold text at the top of the embed. Default: "Open a ticket".
-
-This field is shown in both Classic and Components v2 mode. Besides the embed, the bot uses the title to name the panel in the `/open` command, in the ticket channel topic and in the notice posted when a ticket thread is created. If you build the panel message with Components v2, the title does not appear in the message itself, but you should still set it.
 
 ### Panel Colour
 
@@ -164,7 +164,7 @@ Controls what happens to the mention message after it is sent:
 
 ### Form
 
-Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. With a classic welcome message, their answers are sent in a separate embed below it. With a Components v2 welcome message, the answers are added to the end of the same message, and long answers are trimmed to fit Discord's 4,000 character text limit. Select "None" to open tickets without a form.
+Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. Their answers are sent in a separate embed below the welcome message, or at the end of a [Components v2](./settings/components-v2-builder#welcome-message-details) welcome message. Select "None" to open tickets without a form.
 
 [Learn more about forms](./forms).
 
@@ -180,12 +180,14 @@ The welcome message is the embed sent to the ticket channel as soon as the ticke
 
 Previously, the welcome message was set globally on the Settings page. It is now configured per panel.
 
-### Classic vs Components v2
+### Message Format
 
-The welcome message can also be switched from the classic embed to **Components v2**, the same block-based builder available for the panel message. [Learn more about the Components v2 Builder](./settings/components-v2-builder).
+Choose **Classic** to use the embed fields below, or **Components v2** to build the welcome message from blocks.
+
+[Learn more about Components v2](./settings/components-v2-builder).
 
 :::tip Premium Feature
-Saving in Components v2 mode needs paid [Premium](https://tickets.bot/premium) or Whitelabel. Voting premium does not include it. If paid premium ends, messages already posted keep working, and you can still switch to Classic and save without losing your Components v2 layout. [Learn more](./settings/components-v2-builder#if-your-paid-premium-ends).
+This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
 :::
 
 ### Title
