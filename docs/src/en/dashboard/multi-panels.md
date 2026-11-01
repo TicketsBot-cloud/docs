@@ -12,7 +12,7 @@ Open the dashboard, select your server, and click **Panels** in the sidebar. The
 
 ![Multi-panel create](../../img/dashboard/multipanels/multipanel-create.webp)
 
-The editor starts with an optional **Multi-Panel Name** of up to 100 characters, which is only used to identify the multi-panel in the dashboard and is not shown in Discord. It is followed by three sections described below. After configuring the multi-panel, click **Create Multi Panel** at the bottom of the page.
+The editor starts with an optional **Multi-Panel Name** of up to 100 characters, which is only shown in the dashboard, followed by three sections described below. After configuring the multi-panel, click **Create Multi Panel** at the bottom of the page.
 
 ## Editing a Multi-Panel
 

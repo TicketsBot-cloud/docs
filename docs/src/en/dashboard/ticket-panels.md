@@ -52,7 +52,7 @@ The panel editor is used for both creating and editing panels. It starts with th
 
 ### Panel Name
 
-An optional label (up to 100 characters) used to identify the panel in the dashboard, for example in the panels list and when choosing panels for a multi-panel. It is not shown in Discord. If you leave it blank, the dashboard shows the panel title instead.
+An optional label (up to 100 characters) used to identify the panel in the dashboard. It is not shown in Discord. If you leave it blank, the dashboard shows the panel title instead.
 
 ### Panel Title
 
@@ -66,7 +66,7 @@ Controls how the panel embed looks in Discord and which channel it is posted to.
 
 ### Message Format
 
-Choose **Classic** to use the embed fields below, or **Components v2** to build the panel message from blocks.
+Choose **Classic** to use the embed fields below, or **Components v2** to build the panel message from blocks. **Panel Channel** and the button settings apply to both.
 
 [Learn more about Components v2](./settings/components-v2-builder).
 
@@ -86,14 +86,6 @@ The main body text of the embed. Use this to describe your support process, avai
 You can use [Discord message formatting](https://discord.com/developers/docs/reference#message-formatting) in the panel content, including bold, italic, links, and mentions.
 :::
 
-### Panel Channel
-
-The Discord text channel where the bot sends the panel embed. This should be a channel accessible to all members. In thread mode, new tickets are created as threads under this channel. In channel mode, tickets open in the ticket category, but the panel message still lives in this channel.
-
-:::warning Use a Separate Channel
-Do not use the same channel as your transcript channel.
-:::
-
 ### Thumbnail URL
 
 A URL pointing to an image displayed as a small thumbnail to the right of the embed content.
@@ -104,6 +96,14 @@ A URL pointing to an image displayed full-width below the embed content.
 
 :::tip Image URLs
 The URL should point directly to an image file. An easy way to get a suitable URL is to send the image as a message in a Discord channel, then right-click the image and choose **Copy Link**.
+:::
+
+### Panel Channel
+
+The Discord text channel where the bot sends the panel embed. This should be a channel accessible to all members. In thread mode, new tickets are created as threads under this channel. In channel mode, tickets open in the ticket category, but the panel message still lives in this channel.
+
+:::warning Use a Separate Channel
+Do not use the same channel as your transcript channel.
 :::
 
 ### Button Text
