@@ -28,11 +28,11 @@ A bordered box that groups other blocks together. Give it an accent colour, or m
 
 ### Section
 
-One to three text blocks shown beside a small image (thumbnail) or a button. Choose which with **Image**, **Link button** or, in a multi-panel, **Panel button**.
+One to three text blocks shown beside a small image (thumbnail) or a button. Choose which with **Image**, **Link button** or, in a panel or multi-panel message, **Panel button**.
 
 ### Button Row
 
-A row of up to 5 buttons. Each button is either a **Link** button, which opens a URL, or, in a multi-panel, a **Ticket panel** button, which opens a ticket for the panel you choose.
+A row of up to 5 buttons. Each button is either a **Link** button, which opens a URL, or, in a panel or multi-panel message, a **Ticket panel** button, which opens a ticket.
 
 ### Text Display
 
@@ -66,7 +66,7 @@ Panels you do not place are added at the end of the message as buttons or a drop
 
 The bot adds its own elements to every message:
 
-- The panel message always gets its open ticket button.
+- The panel message gets its open ticket button at the end, unless you place it yourself with **Panel button** or **Ticket panel**.
 - The welcome message gets its **Close**, **Close with Reason** and, in channel mode, **Claim** buttons, unless they are hidden in the panel's [Closing and Claiming](/dashboard/ticket-panels#closing-and-claiming) settings.
 - The multi-panel message gets buttons or a dropdown for every panel you have not [placed yourself](#placing-panels-in-a-multi-panel), matching the [display mode](/dashboard/multi-panels#use-dropdown-menu) you have chosen.
 
