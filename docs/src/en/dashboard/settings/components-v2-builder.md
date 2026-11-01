@@ -74,7 +74,7 @@ They cannot be edited or removed, are marked as added automatically in the live 
 
 ## Limits
 
-- A message can hold 40 components in total. This includes the components the bot adds itself: the open ticket button on a panel message; the Close, Close with Reason and Claim buttons on a welcome message, along with space for five form answers that is kept even if the panel has no form; or the panel buttons or dropdown on a multi-panel.
+- A message can hold 40 components in total. This includes the components the bot adds itself: the open ticket button on a panel message; the Close, Close with Reason and Claim buttons on a welcome message, along with space for five form answers and their container, which is kept even if the panel has no form; or the panel buttons or dropdown on a multi-panel.
 - Text across the whole message, including Section text, is limited to 4,000 characters in total. Link button labels do not count towards this limit.
 - A Media Gallery holds 1 to 10 images.
 - Image and link URLs must be full `http://` or `https://` addresses with a domain name, without spaces or a username and password, and at most 512 characters.
@@ -84,7 +84,7 @@ They cannot be edited or removed, are marked as added automatically in the live 
 A few things work differently when the welcome message uses Components v2:
 
 - Enter `%avatar_url%` as the whole image URL of a Section thumbnail or a Media Gallery image, and the bot replaces it with the avatar of the user who opened the ticket.
-- If the panel has a [form](/dashboard/forms), the answers are added to the end of the welcome message as text blocks, rather than sent in a separate embed. They are not shown in the live preview. Long answers are trimmed so that the text across the whole message stays within the 4,000 character limit, and very long welcome text is trimmed to leave room for each answer.
+- If the panel has a [form](/dashboard/forms), the answers are added to the end of the welcome message in a container, rather than sent in a separate embed. They are not shown in the live preview. Long answers are trimmed so that the text across the whole message stays within the 4,000 character limit, and very long welcome text is trimmed to leave room for each answer.
 - `/switchpanel` leaves the welcome message as it is if the ticket's welcome message uses Components v2, or if the new panel's welcome message does while your subscription is active.
 
 ## Switching a Live Panel Message Back to Classic
