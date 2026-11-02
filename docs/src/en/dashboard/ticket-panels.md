@@ -48,15 +48,11 @@ If you have published any panels, tags, or forms to the gallery, a **Gallery Sub
 
 ## Panel Editor
 
-The panel editor is used for both creating and editing panels. It starts with the **Panel Name** and **Panel Title** fields, followed by the collapsible sections described in order below.
+The panel editor is used for both creating and editing panels. It starts with the **Panel Name** field, followed by the collapsible sections described in order below.
 
 ### Panel Name
 
-An optional label (up to 100 characters) used to identify the panel in the dashboard. It is not shown in Discord. If you leave it blank, the dashboard shows the panel title instead.
-
-### Panel Title
-
-The bold text at the top of the embed. The title is also used in the `/open` command, the ticket channel topic and the notification posted when a ticket thread is opened, even if the panel message uses Components v2. Default: "Open a ticket".
+An optional name (up to 100 characters) for the panel. It is shown in the dashboard, the `/open` command, the ticket channel topic and the notification posted when a ticket thread is opened. If you leave it blank, the panel title is used instead.
 
 ## Panel Appearance
 
@@ -73,6 +69,10 @@ Choose **Classic** to use the embed fields below, or **Components v2** to build 
 :::tip Premium Feature
 This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
 :::
+
+### Panel Title
+
+The bold text at the top of the embed. Default: "Open a ticket".
 
 ### Panel Colour
 
