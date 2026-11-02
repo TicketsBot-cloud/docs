@@ -12,7 +12,7 @@ Open the dashboard, select your server, and click **Panels** in the sidebar. The
 
 ![Multi-panel create](../../img/dashboard/multipanels/multipanel-create.webp)
 
-The editor is divided into three sections described below. After configuring the multi-panel, click **Create Multi Panel** at the bottom of the page.
+The editor starts with an optional **Multi-Panel Name** of up to 100 characters, which is only shown in the dashboard, followed by three sections described below. After configuring the multi-panel, click **Create Multi Panel** at the bottom of the page.
 
 ## Editing a Multi-Panel
 
@@ -74,6 +74,16 @@ Only available when dropdown mode is enabled. An optional short description show
 Controls the appearance of the multi-panel embed itself. A live preview is shown on the right side of the editor.
 
 ![Multi-panel settings](../../img/dashboard/multipanels/multipanel-settings.webp)
+
+### Message Format
+
+Choose **Classic** to use the embed fields below, or **Components v2** to build the multi-panel message from blocks and choose where each panel appears in it.
+
+[Learn more about Components v2](./settings/components-v2-builder).
+
+:::tip Premium Feature
+This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
+:::
 
 ### Title
 

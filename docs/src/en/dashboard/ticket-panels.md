@@ -40,7 +40,7 @@ Free servers are limited to 3 panels. If cloning would exceed this limit, you wi
 
 ### Publishing to the Template Gallery
 
-Click the action menu and select **Publish to Gallery** to share your panel design with the community. See the [Template Gallery](/dashboard/panel-gallery) page for details on the submission process.
+Click the action menu and select **Publish to Gallery** to share your panel design with the community. See the [Template Gallery](/dashboard/panel-gallery) page for details on the submission process. Panels that use Components v2 cannot be submitted to the gallery.
 
 ### Gallery Submissions
 
@@ -48,13 +48,27 @@ If you have published any panels, tags, or forms to the gallery, a **Gallery Sub
 
 ## Panel Editor
 
-The panel editor is used for both creating and editing panels. It is organised into the following collapsible sections, described in order below.
+The panel editor is used for both creating and editing panels. It starts with the **Panel Name** field, followed by the collapsible sections described in order below.
+
+### Panel Name
+
+An optional name (up to 100 characters) for the panel. It is shown in the dashboard, the `/open` command, the ticket channel topic and the notification posted when a ticket thread is opened. If you leave it blank, the panel title is used instead.
 
 ## Panel Appearance
 
 Controls how the panel embed looks in Discord and which channel it is posted to.
 
 ![Panel appearance](../../img/dashboard/panels/panel-appearance.webp)
+
+### Message Format
+
+Choose **Classic** to use the embed fields below, or **Components v2** to build the panel message from blocks. **Panel Channel** and the button settings apply to both.
+
+[Learn more about Components v2](./settings/components-v2-builder).
+
+:::tip Premium Feature
+This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
+:::
 
 ### Panel Title
 
@@ -72,14 +86,6 @@ The main body text of the embed. Use this to describe your support process, avai
 You can use [Discord message formatting](https://discord.com/developers/docs/reference#message-formatting) in the panel content, including bold, italic, links, and mentions.
 :::
 
-### Panel Channel
-
-The Discord text channel where the bot sends the panel embed. This should be a channel accessible to all members. In thread mode, new tickets are created as threads under this channel. In channel mode, tickets open in the ticket category, but the panel message still lives in this channel.
-
-:::warning Use a Separate Channel
-Do not use the same channel as your transcript channel.
-:::
-
 ### Thumbnail URL
 
 A URL pointing to an image displayed as a small thumbnail to the right of the embed content.
@@ -90,6 +96,14 @@ A URL pointing to an image displayed full-width below the embed content.
 
 :::tip Image URLs
 The URL should point directly to an image file. An easy way to get a suitable URL is to send the image as a message in a Discord channel, then right-click the image and choose **Copy Link**.
+:::
+
+### Panel Channel
+
+The Discord text channel where the bot sends the panel embed. This should be a channel accessible to all members. In thread mode, new tickets are created as threads under this channel. In channel mode, tickets open in the ticket category, but the panel message still lives in this channel.
+
+:::warning Use a Separate Channel
+Do not use the same channel as your transcript channel.
 :::
 
 ### Button Text
@@ -150,7 +164,7 @@ Controls what happens to the mention message after it is sent:
 
 ### Form
 
-Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. Their answers are sent in a separate embed below the welcome message. Select "None" to open tickets without a form.
+Attach a form to this panel. When a user clicks the panel button, they are presented with the form to fill in before the ticket is created. Their answers are sent in a separate embed below the welcome message, or at the end of a [Components v2](./settings/components-v2-builder#welcome-message-details) welcome message. Select "None" to open tickets without a form.
 
 [Learn more about forms](./forms).
 
@@ -165,6 +179,16 @@ The welcome message is the embed sent to the ticket channel as soon as the ticke
 ![Welcome message](../../img/dashboard/panels/welcome-message.webp)
 
 Previously, the welcome message was set globally on the Settings page. It is now configured per panel.
+
+### Message Format
+
+Choose **Classic** to use the embed fields below, or **Components v2** to build the welcome message from blocks.
+
+[Learn more about Components v2](./settings/components-v2-builder).
+
+:::tip Premium Feature
+This is a premium feature. [Learn more about premium](https://tickets.bot/premium).
+:::
 
 ### Title
 

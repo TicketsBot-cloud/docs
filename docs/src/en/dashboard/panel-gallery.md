@@ -59,7 +59,7 @@ To share one of your templates with the community:
 3. Click **Submit for Review**.
 
 :::warning Submission Requirements
-Please ensure your template has a descriptive title, meaningful content, and no server-specific references. Custom Discord emojis are not supported in gallery submissions; use standard Unicode emojis instead.
+Please ensure your template has a descriptive title, meaningful content, and no server-specific references. Custom Discord emojis are not supported in gallery submissions; use standard Unicode emojis instead. Panels that use Components v2 cannot be submitted; switch the panel message and welcome message back to **Classic** first.
 :::
 
 ## Submission Review
