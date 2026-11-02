@@ -98,7 +98,7 @@ A collapsible section at the top shows the ticket's metadata:
 
 ### Close Ticket
 
-You can close the ticket by entering an optional close reason and clicking **Close**. After closing, you are returned to the tickets list.
+You can close the ticket by entering an optional close reason, or choosing one of the panel's [close reasons](./ticket-panels#close-reasons), and clicking **Close**. After closing, you are returned to the tickets list.
 
 ### Send Close Request
 
