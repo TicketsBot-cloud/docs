@@ -3,7 +3,9 @@
 | General Commands | Description |
 | ---------------- | ----------- |
 | `/about` | Information about the bot. |
-| `/gdpr (lang)` | Request deletion or anonymization of your data under GDPR. [Learn more.](./gdpr) |
+| `/gdpr delete (lang)` | Delete transcripts from your servers or anonymize your messages. [Learn more.](./gdpr) |
+| `/gdpr export server (lang)` | Export the data we hold for a server you own. |
+| `/gdpr export personal (lang)` | Export the personal data we hold about you. |
 | `/help` | Displays a list of commands. |
 | `/invite` | Provides an invite link for the bot. |
 | `/jumptotop` | Displays a button to click and will automatically scroll to the top of the ticket. |

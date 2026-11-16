@@ -53,7 +53,7 @@ Bot Admins are users added via the `/addadmin` command or the server owner. Supp
 Below the navigation links, the sidebar footer contains:
 
 - **Notifications** - a bell icon that links to the [Notifications](/dashboard/notifications) page. When you have unread notifications, a blue dot and count badge appear on the bell.
-- **Account menu** - your Discord avatar and username. Click it to expand a menu with **Settings** (opens [User Settings](/dashboard/settings)) and **Log out**.
+- **Account menu** - your Discord avatar and username. Click it to expand a menu with **Settings** (opens [User Settings](/dashboard/settings)), **GDPR Requests** (see [GDPR Data Request](/commands/gdpr#dashboard)) and **Log out**.
 
 The sidebar can be collapsed to icon-only mode by clicking the collapse button at the top. On mobile, it opens as a slide-out drawer via the hamburger menu.
 
