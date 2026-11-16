@@ -11,4 +11,4 @@ Run `/help` in your server for the in-Discord list, or use the pages below for t
 | [List of Commands](/commands/list-of-commands) | Complete reference of every slash command, grouped by general, ticket, and administrative use |
 | [Add Admin / Support](/commands/add-admin-support) | The difference between `/addadmin` and `/addsupport`, and what access each one grants |
 | [Close Requests](/commands/close-requests) | Using `/closerequest` to ask the ticket opener to confirm a close, with an optional auto-close delay |
-| [GDPR Data Request](/commands/gdpr) | Requesting transcript deletion or message anonymisation with `/gdpr` in DMs with the bot |
+| [GDPR Data Request](/commands/gdpr) | Requesting transcript deletion, message anonymisation or a data export with `/gdpr` in DMs with the bot |

@@ -1,6 +1,6 @@
 # GDPR Data Request
 
-The `/gdpr` command allows users to exercise their data protection rights under the General Data Protection Regulation (GDPR). This command enables users to request deletion of ticket transcripts from servers they own, or anonymization of their messages from transcripts they participated in.
+The `/gdpr` command allows users to exercise their data protection rights under the General Data Protection Regulation (GDPR). This command enables users to request deletion of ticket transcripts from servers they own, anonymization of their messages from transcripts they participated in, or an export of the data we hold about them or their servers.
 
 :::info Direct Messages Only
 This command can **only be used in Direct Messages (DMs)** with the bot for privacy and security reasons.
@@ -12,11 +12,19 @@ All GDPR deletions are **permanent and cannot be undone**. Requests are processe
 
 ## Overview
 
-When you run the `/gdpr` command in your DMs with the bot, you'll see an interactive menu with different request types:
+The command has three subcommands:
+
+| Subcommand | Description |
+| ---------- | ----------- |
+| `/gdpr delete` | Delete transcripts from your servers or anonymize your messages. |
+| `/gdpr export server` | Export the data we hold for a server you own. |
+| `/gdpr export personal` | Export the personal data we hold about you. |
+
+When you run `/gdpr delete` in your DMs with the bot, you'll see an interactive menu with different request types:
 
 ![GDPR Request Menu](../../img/gdpr/gdpr_request.webp)
 
-The command provides two main categories of requests:
+The menu provides two main categories of requests:
 
 ### Transcript Deletion Options
 
@@ -34,9 +42,9 @@ The command provides two main categories of requests:
 
 ## Language Support
 
-The `/gdpr` command includes an optional `lang` parameter that allows you to select your preferred language for the GDPR request flow. This ensures all messages, confirmations, and completion notifications appear in your chosen language.
+Each subcommand includes an optional `lang` parameter that allows you to select your preferred language for the GDPR request flow. This ensures all messages, confirmations, and completion notifications appear in your chosen language. Start typing a language and pick it from the autocomplete suggestions.
 
-**Command:** `/gdpr lang:en-GB`
+**Command:** `/gdpr delete lang:de`
 
 If no language is specified, the command defaults to English.
 
@@ -95,6 +103,7 @@ You can use any of the following separators:
 
 - Comma-separated: `1, 2, 5, 12`
 - Semicolon-separated: `1; 2; 5; 12`
+- Space-separated: `1 2 5 12`
 - One per line (newline-separated)
 - Tab-separated
 
@@ -117,7 +126,7 @@ You can use any of the following separators:
 4. Click "Confirm - I understand" to submit the request
 
 :::info Participation, Not Ownership
-Only servers where you have **participated in tickets** with transcripts will appear in the dropdown menu. You do **not** need to be the server owner for this option.
+Only servers with transcripts of tickets you **opened, were added to or took part in** will appear in the dropdown menu. You do **not** need to be the server owner for this option.
 :::
 
 ![Message Confirmation](../../img/gdpr/gdpr_messages_confirm.webp)
@@ -150,7 +159,7 @@ Only servers where you have **participated in tickets** with transcripts will ap
 5. Click "Confirm - I understand" to submit the request
 
 :::info Participation, Not Ownership
-Only servers where you have **participated in tickets** with transcripts will appear in the dropdown menu. You do **not** need to be the server owner for this option.
+Only servers with transcripts of tickets you **opened, were added to or took part in** will appear in the dropdown menu. You do **not** need to be the server owner for this option.
 :::
 
 **Ticket ID Format:**
@@ -158,12 +167,132 @@ You can use any of the following separators:
 
 - Comma-separated: `1, 2, 5, 12`
 - Semicolon-separated: `1; 2; 5; 12`
+- Space-separated: `1 2 5 12`
 - One per line (newline-separated)
 - Tab-separated
 
 :::tip Finding a Server ID
 To find a server ID, enable Developer Mode in Discord settings, then right-click the server icon and select `Copy Server ID`. [More info](https://dis.gd/findmyid)
 :::
+
+## Data Exports
+
+`/gdpr export server` and `/gdpr export personal` each show a menu with two options:
+
+- **All data** - Exports every category, including all transcripts
+- **Specific data** - Exports only the categories you choose, and optionally specific tickets
+
+When an export is ready, you can download it as a ZIP file from the [dashboard](#dashboard) for **30 days**.
+
+:::info Export Limit
+You can request one server data export and one personal data export every **24 hours**. Exports that fail or find no data don't count towards this limit.
+:::
+
+### All Server Data
+
+**What it does:** Exports all data we hold for one or more servers you own.
+
+**Requirements:**
+
+- You must be the **owner** of the server(s)
+
+**Process:**
+
+1. Run `/gdpr export server` and click "All data"
+2. Select one or more servers:
+   - **If you own 25 or fewer servers:** Use the dropdown menu to select servers (multi-select enabled)
+   - **If you own more than 25 servers:** Enter server IDs manually in the text field (comma-separated)
+3. Review the confirmation screen
+4. Click "Export Data" to submit the request
+
+### Specific Server Data
+
+**What it does:** Exports the categories you choose from a server you own.
+
+**Requirements:**
+
+- You must be the **owner** of the server
+
+**Process:**
+
+1. Run `/gdpr export server` and click "Specific data"
+2. Select the server:
+   - **If you own 25 or fewer servers:** Use the dropdown menu to select one server
+   - **If you own more than 25 servers:** Enter the server ID manually in the text field
+3. Select the categories to export
+4. If you selected **Transcripts**, you can enter ticket IDs to export only those transcripts. Leave the field empty to export all transcripts
+5. Review the confirmation screen
+6. Click "Export Data" to submit the request
+
+**Categories:**
+
+| Category | Description |
+| -------- | ----------- |
+| **Settings** | Ticket, claim, colour and language settings, plus staff override and dashboard onboarding |
+| **Panels** | Panels with their welcome messages, mentions, teams, access rules and close reasons |
+| **Support hours** | Support hours set on your panels |
+| **Multi-panels** | Multi-panels and the panels they contain |
+| **Forms** | Forms with their inputs and API settings (secret header values are withheld) |
+| **Tags** | Tags and their content |
+| **Staff** | Support teams, staff permissions and on-call members |
+| **Blacklist** | Users and roles blacklisted in the server |
+| **Knowledge base** | Knowledge base settings, categories, articles and article feedback |
+| **Integrations** | Integrations enabled in the server (secret values are withheld) |
+| **Tickets** | Ticket records with members, claims, labels, close reasons, ratings and survey answers |
+| **Transcripts** | Transcripts of closed tickets |
+| **Audit log** | The server's dashboard audit log |
+| **Gallery** | Gallery listings submitted from this server |
+
+### All Personal Data
+
+**What it does:** Exports all personal data we hold about you.
+
+**Process:**
+
+1. Run `/gdpr export personal` and click "All data"
+2. Review the confirmation screen
+3. Click "Export Data" to submit the request
+
+### Specific Personal Data
+
+**What it does:** Exports the categories you choose from the personal data we hold about you.
+
+**Process:**
+
+1. Run `/gdpr export personal` and click "Specific data"
+2. Select the categories to export
+3. If you selected **Transcripts**, you can select a server and enter ticket IDs to export only those transcripts. Leave both empty to export all of your transcripts
+4. Review the confirmation screen
+5. Click "Export Data" to submit the request
+
+**Categories:**
+
+| Category | Description |
+| -------- | ----------- |
+| **Settings** | Your notification preferences and email address |
+| **Account** | Your dashboard account, its server list, any bot staff role and feature test exposures |
+| **Notifications** | Notifications sent to you on the dashboard |
+| **Tickets** | Records of tickets you opened or took part in, with their close reasons |
+| **Staff activity** | Your staff roles, teams, claims, close requests, response times and tickets you closed |
+| **Premium** | Your premium purchases, keys, entitlements and votes |
+| **Affiliate** | Your affiliate code and referrals |
+| **Whitelabel** | Your whitelabel bot, its servers, statuses and errors (the bot token is withheld) |
+| **Integrations** | Custom integrations you created (secret values are withheld) |
+| **Gallery** | Gallery listings you submitted |
+| **Feedback** | Your knowledge base feedback, plus ratings and survey answers on your tickets |
+| **Blacklists** | Blacklist entries about you or servers you own (reasons are withheld) |
+| **Audit log** | Changes you made on the dashboard |
+| **GDPR requests** | Your previous GDPR requests and their status |
+| **Discord data** | Your Discord profile and server member data from our cache |
+| **Transcripts** | Your own messages in ticket transcripts |
+
+## Dashboard
+
+You can also make transcript deletion, anonymization and export requests on the [web dashboard](https://dashboard.tickets.bot). Click on your avatar in the sidebar footer to open the account menu, then select **GDPR Requests**. You'll get a [notification](/dashboard/notifications) when a request made there finishes, with the number of transcripts deleted or messages anonymized. For a ready export, the notification links straight to the download.
+
+The page also lists your GDPR requests, including ones made with `/gdpr`, with their status and a **Download** button for ready exports.
+
+Server owners can also delete or export a single transcript from its action menu on the [Transcripts](/dashboard/transcripts#actions) page of their server.
 
 ## Request Processing
 
@@ -201,6 +330,7 @@ The completion message shows:
 
 - **For transcript deletions:** Number of transcripts deleted
 - **For message anonymization:** Number of messages anonymized
+- **For data exports:** A **Download** button that downloads the export from the dashboard, or a note that no data was found
 - **If error occurred:** Error details and reason
 
 ![Request Complete](../../img/gdpr/gdpr_done.webp)
@@ -251,7 +381,7 @@ Yes, you'll receive an ephemeral follow-up message and the original message will
 
 ### Can I select multiple servers at once?
 
-Yes! For "All transcripts from servers" and "All your messages in servers" options, you can select multiple servers using the multi-select dropdown menu (if you have 25 or fewer eligible servers) or by entering comma-separated server IDs (if you have more than 25).
+Yes! For "All transcripts from servers", "All your messages in servers" and the server export's "All data" options, you can select multiple servers using the multi-select dropdown menu (if you have 25 or fewer eligible servers) or by entering comma-separated server IDs (if you have more than 25). The same options on the [dashboard](#dashboard) also let you select multiple servers.
 
 ### What's the difference between deleting transcripts and anonymizing messages?
 
@@ -260,7 +390,7 @@ Yes! For "All transcripts from servers" and "All your messages in servers" optio
 
 ### Can I request an export of my data before deletion?
 
-Currently, data export is not available through the bot. Please contact support via the [support server](https://discord.gg/ticketsbot) for data export requests.
+Yes. Request an export with `/gdpr export personal` or `/gdpr export server`, and wait until it is ready before you request the deletion.
 
 ### Does message anonymization affect other users' ability to see the transcript?
 

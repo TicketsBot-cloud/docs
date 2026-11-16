@@ -57,6 +57,10 @@ Each row has an action menu with the following options:
 
 - **View** opens the full transcript (only shown if a transcript is stored for that ticket).
 - **Edit Close Reason** opens a modal where you can update or clear the close reason for that ticket.
+- **Export** downloads the transcript as a JSON file (only shown to the server owner if a transcript is stored).
+- **Delete** permanently deletes the transcript after you confirm, while the ticket stays listed (only shown to the server owner if a transcript is stored).
+
+To delete all transcripts in your server, or several at once by ticket ID, the server owner can make a request on the [GDPR Requests](/commands/gdpr#dashboard) page.
 
 ## Viewing a Transcript
 

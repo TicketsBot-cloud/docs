@@ -40,7 +40,7 @@ You can choose how you receive notifications for different event categories. Thr
 | **Discord DM** | The bot sends you a direct message on Discord |
 | **Email** | Sent to your verified email address |
 
-By default, **In-app** is enabled while **Discord DM** and **Email** are disabled. You can toggle each channel on or off independently for every notification category.
+By default, **In-app** is enabled while **Discord DM** and **Email** are disabled. You can toggle each channel on or off independently for every notification category, except **GDPR requests**, which need at least one channel on.
 
 ::: warning Discord DMs
 For Discord DM notifications to work, your DMs must be open. The bot needs to be able to send you a direct message. If your privacy settings block DMs from server members, you will not receive these notifications.
@@ -52,6 +52,7 @@ For Discord DM notifications to work, your DMs must be open. The bot needs to be
 | -------- | --------------------------- |
 | **Affiliate** | Referral activity, credit updates, and application status changes |
 | **Integrations** | Updates when your public integration request is approved, rejected, or unapproved |
+| **GDPR requests** | Updates when a GDPR request you made on the dashboard finishes or fails |
 
 Each row in the notification preferences table shows a category with its description, along with toggle switches for In-app, Discord DM, and Email. Toggle each channel on or off as needed, then click **Save Preferences** to apply your changes.
 

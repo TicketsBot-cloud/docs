@@ -58,7 +58,8 @@ The following notification categories are available to all users:
 | -------- | --------------------------- |
 | **Affiliate** | Referral activity, credit updates, and programme status changes |
 | **Integrations** | Updates when your public integration request is approved, rejected, or unapproved |
+| **GDPR requests** | Updates when a GDPR request you made on the dashboard finishes or fails |
 
 :::info Default Channel Settings
-Each category can be independently toggled on or off for each notification channel. By default, In-app is enabled while Discord DM and Email are disabled.
+Each category can be independently toggled on or off for each notification channel, except GDPR requests, which need at least one channel on. By default, In-app is enabled while Discord DM and Email are disabled.
 :::
